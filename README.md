@@ -613,4 +613,43 @@ cal -y
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Check the status of all the services.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+service --status-all 
+```
+----------------------------------------
+
+### **Description:**
+> ***Display time in hh:mm:ss.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+date +%T
+```
+----------------------------------------
+
+### **Description:**
+> ***Tells when the user last logged on and off and from where.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+last  -1 username
+```
+----------------------------------------
+
+
+
+
+
+
+
 
