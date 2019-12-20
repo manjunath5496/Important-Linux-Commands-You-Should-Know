@@ -786,6 +786,18 @@ acpi
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(34).pdf" style="text-decoration:none;">Understanding Linux Network Internals</a></b></li>
 
 
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(35).pdf" style="text-decoration:none;">DevOps Troubleshooting: Linux Server Best Practices</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(36).pdf" style="text-decoration:none;">Learn Linux in a Month of Lunches</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(37).pdf" style="text-decoration:none;">Linux Device Drivers</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(38).pdf" style="text-decoration:none;">Pro Linux Embedded Systems</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(39).pdf" style="text-decoration:none;">Linux for Beginners: The Ultimate Guide To The Linux Operating System and Linux Commands</a></b></li>
+
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(40).pdf" style="text-decoration:none;">Linux in the Workplace</a></b></li>
 
 
 
