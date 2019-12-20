@@ -3,12 +3,12 @@
 
 
 ### **Description:**
-
+> ***Display system date and time.***
 ---------------------------------------
 
-<strong>Display system date and time </strong>
+<strong>Command: </strong>
 
-```Java
+```linux
 date
 ```
 ----------------------------------------
