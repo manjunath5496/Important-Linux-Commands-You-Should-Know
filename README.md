@@ -363,6 +363,131 @@ rm  -r *
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Provides a quick overview of the currently running processes.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+top
+```
+----------------------------------------
+
+### **Description:**
+> ***The system performs an immediate reboot.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+reboot
+```
+----------------------------------------
+
+### **Description:**
+> ***Terminate processes without having to log out or reboot.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+kill
+```
+----------------------------------------
+
+### **Description:**
+> ***Change the current working directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cd
+```
+----------------------------------------
+
+### **Description:**
+> ***Create a new session on the system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+login
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List open files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lsof
+```
+----------------------------------------
+
+### **Description:**
+> ***List USB devices.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lsusb
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Check the status of the network services.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+service network status
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Start the network service.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+service network start
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Stop the network service.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+service network stop
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Restart the network service.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+service network restart
+```
+----------------------------------------
 
 
 
