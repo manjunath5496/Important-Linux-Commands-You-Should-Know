@@ -489,7 +489,73 @@ service network restart
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Report information about the users currently on the machine and their processes.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+w
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display the current directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+pwd
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Displays CPU architecture information (such as number of CPUs, threads, cores, sockets, and more).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lscpu
+```
+----------------------------------------
+
+### **Description:**
+> ***Displays the number of processing units available to the current process.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+nproc
+```
+----------------------------------------
+
+### **Description:**
+> ***The system performs an immediate reboot.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+init 6
+```
+----------------------------------------
+
+### **Description:**
+> ***Power-off the machine.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+init 0
+```
+----------------------------------------
 
 
 
