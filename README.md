@@ -800,6 +800,32 @@ acpi
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(40).pdf" style="text-decoration:none;">Linux in the Workplace</a></b></li>
 
 
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(41).pdf" style="text-decoration:none;">Linux: The Textbook</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(42).pdf" style="text-decoration:none;">Linux &minus; Das Buch</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(43).pdf" style="text-decoration:none;">Red Hat Linux 7.2 Bible</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(44).pdf" style="text-decoration:none;">A Practical Guide to Ubuntu Linux</a></b></li>
+
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(45).pdf" style="text-decoration:none;">Essential System Administration: Tools and Techniques for Linux and Unix Administration</a></b></li>
+
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(46).pdf" style="text-decoration:none;">Linux Samba Server Administration</a></b></li>
+
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(47).pdf" style="text-decoration:none;">LPI Linux Certification in a Nutshell</a></b></li>
+
+
+
+
+
+
+
+
+
+
 
 
  </ul>
