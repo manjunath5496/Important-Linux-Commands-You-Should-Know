@@ -557,6 +557,60 @@ init 0
 ```
 ----------------------------------------
 
+### **Description:**
+> ***List files by date.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+ls -lrt
+```
+----------------------------------------
+
+### **Description:**
+> ***Report information about storage devices such as hard disks, flash drives etc.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lsblk
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Show exit status of previous command.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo $?
+```
+----------------------------------------
+
+### **Description:**
+> ***Lists a few useful info commands.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+info
+```
+----------------------------------------
+
+### **Description:**
+> ***Prints current year's calendar.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cal -y 
+```
+----------------------------------------
 
 
