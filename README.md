@@ -726,6 +726,29 @@ acpi
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Takes you two folders back.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cd ../..
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Takes you to the previous directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cd -
+```
+----------------------------------------
+
 
  </br>
 <h3>Books:</h3>
