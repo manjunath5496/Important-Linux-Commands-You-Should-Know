@@ -820,7 +820,7 @@ acpi
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(48).pdf" style="text-decoration:none;">Foundations of CentOS Linux: Enterprise Linux On the Cheap</a></b></li>
 
 
-<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(49).pdf" style="text-decoration:none;">gstration</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(49).pdf" style="text-decoration:none;">Linux 101 Hacks</a></b></li>
 
 
 <li><b><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/lnx(50).pdf" style="text-decoration:none;">Advanced Linux Programming</a></b></li>
