@@ -294,6 +294,47 @@ date -- set 12:11:02
 ```
 ----------------------------------------
 
+### **Description:**
+> ***View and change the configuration of the network interfaces on the system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ifconfig
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Lists files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Report the process information.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ps
+```
+----------------------------------------
+
+
+
+
+
+
+
 
 
 
