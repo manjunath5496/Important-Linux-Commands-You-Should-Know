@@ -113,7 +113,50 @@ free  -m
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Change user password.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+passwd
+```
+----------------------------------------
+
+### **Description:**
+> ***Power-off the machine.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+shutdown
+```
+----------------------------------------
+
+### **Description:**
+> ***Power-off the machine immediately.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+shutdown  -h now
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Power-off the machine after 10 minutes.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+shutdown  -h +10
+```
+----------------------------------------
 
 
 
