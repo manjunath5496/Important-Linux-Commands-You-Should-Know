@@ -57,8 +57,61 @@ clear
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Exit from the terminal window.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+exit
+```
+----------------------------------------
+
+### **Description:**
+> ***Display free and used system memory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+free
+```
+----------------------------------------
 
 
+### **Description:**
+> ***Display free and used system memory in bytes.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+free  -b
+```
+----------------------------------------
+
+### **Description:**
+> ***Display free and used system memory in kilobytes.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+free  -k
+```
+----------------------------------------
+
+### **Description:**
+> ***Display free and used system memory in megabytes.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+free  -m
+```
+----------------------------------------
 
 
 
