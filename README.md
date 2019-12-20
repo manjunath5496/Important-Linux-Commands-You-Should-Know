@@ -727,5 +727,68 @@ acpi
 ----------------------------------------
 
 
+ </br>
+<h3>Books:</h3>
+<hr>
 
+<ul>
+  <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(1).pdf" style="text-decoration:none;">A Practical Guide to Linux Commands, Editors, and Shell Programming</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(2).pdf" style="text-decoration:none;">CentOS 7 Linux Server Cookbook</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(3).pdf" style="text-decoration:none;">CompTIA Linux+ Guide to Linux Certification</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(4).pdf" style="text-decoration:none;">Sams Teach Yourself Linux in 24 Hours</a></b></li>                              
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(5).pdf" style="text-decoration:none;">Go Systems Programming: Master Linux and Unix system level programming with Go</a></b></li>
+                                
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(6).pdf" style="text-decoration:none;">Hacking Exposed Linux: Linux Security Secrets and Solutions</a></b></li>
+                          
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(7).pdf" style="text-decoration:none;">How Linux Works: What Every Superuser Should Know</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(8).pdf" style="text-decoration:none;">Learn CentOS Linux Network Services</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(9).pdf" style="text-decoration:none;">Linux Administration: A Beginner's Guide</a></b></li>
+                                
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(10).pdf" style="text-decoration:none;">Linux All-in-One Desk Reference For Dummies</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/pb(11).pdf" style="text-decoration:none;">Linux and Solaris Recipes for Oracle DBAs</a></b></li>
+
+
+   <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(12).pdf" style="text-decoration:none;">Linux Apache Web Server Administration</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(13).pdf" style="text-decoration:none;">Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali </a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(14).pdf" style="text-decoration:none;">Linux in a Nutshell</a></b></li>
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(15).pdf" style="text-decoration:none;">LPI Linux Certification: Basic Level 1</a></b></li>                              
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(16).pdf" style="text-decoration:none;">Linux Kernel Development</a></b></li>
+                                
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(17).pdf" style="text-decoration:none;">Linux Malware Incident Response: A Practitioner's Guid to Forensic Collection and Examination of Volatile Data</a></b></li>
+                          
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(18).pdf" style="text-decoration:none;">Linux Shell Scripting with Bash</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(19).pdf" style="text-decoration:none;">Learn the Basics of Linux in 2 Weeks</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(20).pdf" style="text-decoration:none;">Linux: Powerful Server Administration</a></b></li>
+                                
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(21).pdf" style="text-decoration:none;"> Linux: The Complete Reference</a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(22).pdf" style="text-decoration:none;">Linux: The Ultimate Step by Step Guide to Quickly and Easily Learning Linux</a></b></li>
+
+ <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(23).rar" style="text-decoration:none;">Linux Bible</a></b></li>
+                          
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(24).pdf" style="text-decoration:none;">Linux Dictionary</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(25).pdf" style="text-decoration:none;">Linux Servers</a></b></li>
+                                <li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(26).pdf" style="text-decoration:none;">LPIC-1: Linux Professional Institute Certification Study Guide</a></b></li>
+                                
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(27).pdf" style="text-decoration:none;">Mastering Kali Linux </a></b></li>
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(28).pdf" style="text-decoration:none;">Operating System Concepts and Basic Linux Commands</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(29).pdf" style="text-decoration:none;">Python for Unix and Linux System Administration</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(30).pdf" style="text-decoration:none;">Step by Step Linux Guide</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(31).pdf" style="text-decoration:none;">The Linux Command Line: A Complete Introduction</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(32).pdf" style="text-decoration:none;">The Linux Programming Interface</a></b></li>
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(33).pdf" style="text-decoration:none;">Linux in Action</a></b></li>
+
+
+<li><b><a target="_blank" href="https://github.com/manjunath5496/Beginner-Java-Exercises/blob/master/ava(34).pdf" style="text-decoration:none;">Understanding Linux Network Internals</a></b></li>
+
+
+
+
+
+
+ </ul>
 
