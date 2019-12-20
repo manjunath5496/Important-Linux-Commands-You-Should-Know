@@ -158,6 +158,110 @@ shutdown  -h +10
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Print current working directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo $PWD
+```
+----------------------------------------
+
+### **Description:**
+> ***Print previous working directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo $OLDPWD
+```
+----------------------------------------
+
+### **Description:**
+> ***Executes the 11th command in command history.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+!11
+```
+----------------------------------------
+
+### **Description:**
+> ***Reveals your command history.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+history
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Power off or reboot the Operating system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo reboot
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the IP address of the host.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ip address
+```
+----------------------------------------
+
+### **Description:**
+> ***List the size of files and directories.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls  -s
+```
+----------------------------------------
+
+
+### **Description:**
+> ***View mounted file systems.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+mount
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the information of disk usage of files and directories.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+du
+```
+----------------------------------------
+
+
+
+
 
 
 
