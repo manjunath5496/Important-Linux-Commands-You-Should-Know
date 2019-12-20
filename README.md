@@ -23,3 +23,46 @@ date
 cal
 ```
 ----------------------------------------
+
+### **Description:**
+> ***Display date, time and calendar.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+date & cal
+```
+----------------------------------------
+
+### **Description:**
+> ***Display August month 2016 year calendar.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cal 8 2016
+```
+----------------------------------------
+
+### **Description:**
+> ***Used to clear the terminal window.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+clear
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
