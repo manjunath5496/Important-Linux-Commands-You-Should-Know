@@ -330,7 +330,38 @@ ps
 ----------------------------------------
 
 
+### **Description:**
+> ***Display disk usage.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+df
+```
+----------------------------------------
+
+### **Description:**
+> ***Display disk usage in gigabytes, megabytes, or kilobytes.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+df  -H
+```
+----------------------------------------
+
+### **Description:**
+> ***Delete every file and every directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+rm  -r *
+```
+----------------------------------------
 
 
 
