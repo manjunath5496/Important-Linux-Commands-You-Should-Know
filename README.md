@@ -647,8 +647,84 @@ last  -1 username
 ----------------------------------------
 
 
+### **Description:**
+> ***Sort files and directories by extension name.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls  -X
+```
+----------------------------------------
 
 
+### **Description:**
+> ***Display the manual for the pwd command.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+man pwd
+```
+----------------------------------------
+
+### **Description:**
+> ***Displays  information about running processes in the form of a tree.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+pstree
+```
+----------------------------------------
+
+### **Description:**
+> ***Resets your terminal.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+reset
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Displays What date is it this Friday.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+date -d fri
+```
+----------------------------------------
+
+### **Description:**
+> ***Displays the size of each individual file.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+du  -a
+```
+----------------------------------------
+
+### **Description:**
+> ***Display information about the Advanced configuration and power Interface.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+acpi
+```
+----------------------------------------
 
 
 
