@@ -260,8 +260,39 @@ du
 ----------------------------------------
 
 
+### **Description:**
+> ***Tells you how long the system has been running.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uptime
+```
+----------------------------------------
+
+### **Description:**
+> ***Set current date as 02 Nov 1988.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+date -- set 1998-11-02
+```
+----------------------------------------
 
 
+### **Description:**
+> ***Set current time as 12:11:02 IST.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+date -- set 12:11:02
+```
+----------------------------------------
 
 
 
