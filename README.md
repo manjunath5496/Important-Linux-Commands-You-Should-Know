@@ -1,18 +1,3 @@
-### Table 1: MNIST results for dense and sparse architectures
-|      Network     |  Test score  |    Noise score    |
-|:-----------------|-------------:|------------------:|
-| Dense CNN-1      | 99.14 ± 0.03 |  74,569 ± 3,200   |
-| Dense CNN-2      | 99.31 ± 0.06 |  97,040 ± 2,853   |
-|                  |              |                   |
-| Sparse CNN-1     | 98.41 ± 0.08 | 100,306 ± 1,735   |
-| Sparse CNN-2     | 99.09 ± 0.05 | 103,764 ± 1,125   |
-|                  |              |                   |
-| Dense CNN-2 SP3  | 99.13 ± 0.07 | 100,318 ± 2,762   |
-| Sparse CNN-2 D3  | 98.89 ± 0.13 | 102,328 ± 1,720   |
-| Sparse CNN-2 W1  | 98.20 ± 0.19 | 100,322 ± 2,082   |
-| Sparse CNN-2 DSW | 98.92 ± 0.09 |  70,566 ± 2,857   |
-
-
 <p>The <strong>command line</strong> is one of the nearly all well built trademarks of <strong>Linux</strong>. There exists an<strong> ocean of Linux commands</strong>, permitting you to do nearly everything you can be under the impression of doing on your <strong>Linux operating system</strong>. Although, this to the end of time creates a problem: by all of so <strong>copious commands</strong> accessible to manage, you don't comprehend where and at which point to fly learning them, especially when you are learner. If you are facing this problem, and are peering for a painless method to begin your command line journey in Linux, you've come to the right place, as in this, we will launch you to a hold of well liked and <strong>helpful Linux commands</strong>.&nbsp;</p>
 <hr>
 
@@ -1167,9 +1152,7 @@ yum remove httpd
 apt remove httpd
 ```
 ----------------------------------------
-
-
-
+</br>
 
 
 
