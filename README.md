@@ -1031,6 +1031,30 @@ netstat  -lu
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Reveal all the information about the current user (user id, username, group id, group name etc.).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+id
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Reveal all the information about the user "root1" (user id, username, group id, group name etc.).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+id  root1
+```
+----------------------------------------
+
+
 
 
 
