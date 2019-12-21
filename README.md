@@ -1054,7 +1054,104 @@ id  root1
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Print the machine's architecture.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+arch
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the list of available fonts.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+fc-list
+```
+----------------------------------------
+
+### **Description:**
+> ***Create two directories (myfiles, files).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+mkdir myfiles files
+```
+----------------------------------------
+
+### **Description:**
+> ***install apache (CentOS).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+yum install httpd
+```
+----------------------------------------
+
+### **Description:**
+> ***install apache (Ubuntu).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+apt install httpd
+```
+----------------------------------------
+
+### **Description:**
+> ***upgrade apache (CentOS).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+yum update httpd
+```
+----------------------------------------
+
+### **Description:**
+> ***upgrade apache (Ubuntu).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+apt update httpd
+```
+----------------------------------------
+
+### **Description:**
+> ***uninstall apache (CentOS).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+yum remove httpd
+```
+----------------------------------------
+
+### **Description:**
+> ***uninstall apache (Ubuntu).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+apt remove httpd
+```
+----------------------------------------
 
 
 
