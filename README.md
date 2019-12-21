@@ -829,6 +829,28 @@ logout
 ----------------------------------------
 
 
+### **Description:**
+> ***Creates a user "root1".***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+useradd "root1"
+```
+----------------------------------------
+
+### **Description:**
+> ***Assign password to user "root1".***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+passwd "root1"
+```
+----------------------------------------
+
 
 
 
