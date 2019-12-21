@@ -1152,40 +1152,7 @@ yum remove httpd
 apt remove httpd
 ```
 ----------------------------------------
-</br>
 
-<table>
-<tbody>
-<tr>
-<td width="217">
-<p>vi&nbsp;<br /> i&nbsp;</p>
-<p><br /> echo "What is your name?"</p>
-<p>read PERSON</p>
-<p>echo "Hello, $PERSON"</p>
-<p>&nbsp;</p>
-<p>Hit Escape to return to Normal mode.&nbsp;<br /> :w hello.sh<br /> :q&nbsp;</p>
-<p>&nbsp;</p>
-<p>sh hello.sh</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-</td>
-<td width="282">
-<p>Open vi editor&nbsp;<br /> Go to Insert mode&nbsp;<br /> <br /> </p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>Save text&nbsp;<br /> Quit&nbsp;</p>
-<p>&nbsp;</p>
-<p>Output:<br /> What is your name?</p>
-<p>If you enter: Zara Ali</p>
-<p>Hello, Zara Ali</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 
