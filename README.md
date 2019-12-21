@@ -964,7 +964,72 @@ uname  -n
 ----------------------------------------
 
 
+### **Description:**
+> ***Display all port connections (both TCP and UDP).***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+netstat  -a
+```
+----------------------------------------
+
+### **Description:**
+> ***Display only TCP (Transmission Control Protocol) port connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+netstat  -at
+```
+----------------------------------------
+
+### **Description:**
+> ***Display only UDP (User Datagram Protocol) port connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+netstat  -au
+```
+----------------------------------------
+
+### **Description:**
+> ***Display all active listening ports.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+netstat  -I
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display all active listening TCP ports.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+netstat  -It
+```
+----------------------------------------
+
+### **Description:**
+> ***Display all active listening UDP ports.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+netstat  -lu
+```
+----------------------------------------
 
 
 
