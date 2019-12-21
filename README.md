@@ -749,6 +749,65 @@ cd -
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Displays a list of shell built-in commands.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+help
+```
+----------------------------------------
+
+### **Description:**
+> ***Lists your last logins.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+last yourusername
+```
+----------------------------------------
+
+### **Description:**
+> ***Create a new directory called myfiles.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+mkdir myfiles
+```
+----------------------------------------
+
+### **Description:**
+> ***Remove the directory myfiles.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+rmdir myfiles
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  </br>
 <h3>Books:</h3>
