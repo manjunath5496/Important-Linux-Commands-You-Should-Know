@@ -1154,6 +1154,38 @@ apt remove httpd
 ----------------------------------------
 
 
+### **Description:**
+> ***Display usage summary for the command (date).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+date --help
+```
+----------------------------------------
+
+### **Description:**
+> ***List active connections to/from system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -tup
+```
+----------------------------------------
+
+### **Description:**
+> ***List internet services on a system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -tupl
+```
+----------------------------------------
 
 
  </br>
