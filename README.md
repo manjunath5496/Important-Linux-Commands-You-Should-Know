@@ -873,6 +873,95 @@ whoami
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Display the login name of the current user.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+logname
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Report the name of the kernel.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uname
+```
+----------------------------------------
+
+### **Description:**
+> ***Print the kernel version.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uname  -v
+```
+----------------------------------------
+
+### **Description:**
+> ***Print the operating system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uname  -o
+```
+----------------------------------------
+
+### **Description:**
+> ***Report the machine hardware name.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uname  -m
+```
+----------------------------------------
+
+### **Description:**
+> ***Print version information and exit.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uname  --version
+```
+----------------------------------------
+
+### **Description:**
+> ***Print the kernel release.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uname  -r
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Report the network node hostname.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uname  -n
+```
+----------------------------------------
 
 
 
