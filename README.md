@@ -851,7 +851,27 @@ passwd "root1"
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Repeats the last command.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+!!
+```
+----------------------------------------
+
+### **Description:**
+> ***Display Who you are logged in as.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+whoami
+```
+----------------------------------------
 
 
 
