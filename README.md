@@ -794,6 +794,40 @@ rmdir myfiles
 ----------------------------------------
 
 
+### **Description:**
+> ***Disable password for a specific user "root1".***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+passwd -d root1
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Switch to user "root1".***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo su root1
+```
+----------------------------------------
+
+### **Description:**
+> ***Exit from the terminal window.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+logout
+```
+----------------------------------------
+
 
 
 
