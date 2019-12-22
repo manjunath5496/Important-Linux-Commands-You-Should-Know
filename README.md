@@ -1693,6 +1693,43 @@ printf 'Hello World' > myfiles.txt
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Display IP address of the hostname.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+hostname  -i
+```
+----------------------------------------
+
+### **Description:**
+> ***Add a new line of text to an existing file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo "Hello world!" >> 1.txt 
+echo "this is 2nd line text" >> 1.txt
+echo "last line!" >> 1.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Displays a single line description about a command (cal).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+whatis cal
+```
+----------------------------------------
+
+
+
 
 
  </br>
