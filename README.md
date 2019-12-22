@@ -1422,9 +1422,93 @@ cal -3
 ----------------------------------------
 
 
+### **Description:**
+> ***Compare the contents of three files (1.txt, 2.txt, 3.txt) line by line.***
+---------------------------------------
 
+<strong>Command: </strong>
 
+```linux
+diff3 1.txt 2.txt 3.txt
+```
+----------------------------------------
 
+### **Description:**
+> ***Compare two files (1.txt, 2.txt) line-by-line.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+comm 1.txt 2.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Perform byte-by-byte comparison of two files (1.txt, 2.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cmp 1.txt 2.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Prints the CRC checksum and byte count for the file "myfiles.txt".***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cksum myfiles.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Append contents of files (1.txt, 2.txt) into one file (0.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat 1.txt 2.txt > 0.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Append contents of files (1.txt, 2.txt, 3.txt) into one file (0.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sed  r 1.txt 2.txt 3.txt > 0.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Append contents of files (1.txt, 2.txt, 3.txt) into one file (0.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sed  h 1.txt 2.txt 3.txt > 0.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Append contents of files (1.txt, 2.txt, 3.txt) into one file (0.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sed  -n  p 1.txt 2.txt 3.txt > 0.txt
+```
+----------------------------------------
 
 
 
