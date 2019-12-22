@@ -1728,9 +1728,36 @@ whatis cal
 ```
 ----------------------------------------
 
+```
 
+### 
+|     Command      |  Description       | 
+|:-----------------|-------------:      |
+| vi               | Open vi editor     |  
+| i                | Go to Insert mode  | 
+| Type some text.  |                    | 
+| Hit Escape to return to Normal mode.  |               
+| :w test.txt      | Save text          | 
+| :q               | Quit               | 
+| :q!              |Quit without saving | 
+ 
 
+```
+```
+### 
+|     Command      |  Description          | 
+|:-----------------|-------------:         |
+| vi               | Open vi editor        |  
+| i                | Go to Insert mode     | 
+| $name = "Paul";  |                       | 
+| print "$name";   |                       | 
+| Hit Escape to return to Normal mode.     |               
+| :w hello.pl      | Save text             | 
+| :q               | Quit                  | 
+| perl hello.pl    |Print the output: Paul | 
+ 
 
+```
 
  </br>
 <h3>Books:</h3>
