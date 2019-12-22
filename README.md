@@ -1526,7 +1526,31 @@ sed  -n  p 1.txt 2.txt 3.txt > 0.txt
 ```
 </br>
 
+### **Description:**
+> ***Writes contents of a file (0.txt) to output, and prepends each line with line number.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+nl 0.txt
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Create a empty file (test1.txt) inside a directory (test).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+mkdir test 
+cd test 
+pwd 
+touch test1.txt
+```
+----------------------------------------
 
 
 
