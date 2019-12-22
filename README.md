@@ -1265,6 +1265,98 @@ gunzip 1.txt
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Examine the contents of the file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat 1.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Examine the contents of the file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat 1.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Removes the file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+rm 1.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Rename a file named 1.txt to 0.txt.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+mv 1.txt 0.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Replace the contents of 0.txt with that of 1.txt.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cp 1.txt 0.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Create a empty file (test.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+touch test.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Print the last 10 lines of a file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+tail 1.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Print N number of lines from the file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+tail  -n N 1.txt
+```
+----------------------------------------
+
+
+
+
+
 
 
 
