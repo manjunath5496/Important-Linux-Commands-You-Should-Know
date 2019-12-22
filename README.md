@@ -1777,6 +1777,16 @@ whatis cal
 |                            | Hello, Zara Ali        | 
 
 ```
+### **Description:**
+> ***Check the network connectivity between host (your connection) and server (Google server).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ping google.com
+```
+----------------------------------------
 
  </br>
 <h3>Books:</h3>
