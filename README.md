@@ -1353,8 +1353,73 @@ tail  -n N 1.txt
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Prints the number of words in a file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+wc -w 1.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Prints the number of characters from a file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+wc -m 1.txt
+```
+----------------------------------------
 
 
+### **Description:**
+> ***Prints the length of the longest line in a file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+wc -L 1.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Print information about usb ports, graphics cards, network adapters etc.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lspci
+```
+----------------------------------------
+
+### **Description:**
+> ***View contents of a file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+less 1.txt
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display calendar (last month, current month, and next month).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cal -3
+```
+----------------------------------------
 
 
 
