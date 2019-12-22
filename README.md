@@ -1187,6 +1187,93 @@ ss -tupl
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Display all active UNIX listening ports.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+netstat  -lx
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display all the active interfaces details.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ifconfig
+```
+----------------------------------------
+
+### **Description:**
+> ***Display information of all network interfaces.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ifconfig  -a
+```
+----------------------------------------
+
+### **Description:**
+> ***Compare the contents of two files (1.txt, 2.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+diff 1.txt 2.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Tells you how many lines, words, and characters there are in a file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+wc 1.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Compresses file (1.txt), so that it take up much less space.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+gzip 1.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Uncompresses file (1.txt) compressed by gzip.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+gunzip 1.txt
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
 
  </br>
 <h3>Books:</h3>
