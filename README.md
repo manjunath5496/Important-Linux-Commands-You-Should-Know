@@ -1638,6 +1638,30 @@ stat 1.txt
 
 ```
 
+### **Description:**
+> ***Download the file (file.txt) from url (http://website.com/files/file.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+wget http://website.com/files/file.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Display host's numeric ID in hexadecimal format.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+hostid
+```
+----------------------------------------
+
+
+
 
 
  </br>
