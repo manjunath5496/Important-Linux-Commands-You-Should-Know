@@ -1620,7 +1620,25 @@ stat 1.txt
 ----------------------------------------
 
 
+```
 
+### Table 1: MNIST results for dense and sparse architectures
+|      Network     |  Test score  |    Noise score    |
+|:-----------------|-------------:|------------------:|
+| Dense CNN-1      | 99.14 ± 0.03 |  74,569 ± 3,200   |
+| Dense CNN-2      | 99.31 ± 0.06 |  97,040 ± 2,853   |
+|                  |              |                   |
+| Sparse CNN-1     | 98.41 ± 0.08 | 100,306 ± 1,735   |
+| Sparse CNN-2     | 99.09 ± 0.05 | 103,764 ± 1,125   |
+|                  |              |                   |
+| Dense CNN-2 SP3  | 99.13 ± 0.07 | 100,318 ± 2,762   |
+| Sparse CNN-2 D3  | 98.89 ± 0.13 | 102,328 ± 1,720   |
+| Sparse CNN-2 W1  | 98.20 ± 0.19 | 100,322 ± 2,082   |
+| Sparse CNN-2 DSW | 98.92 ± 0.09 |  70,566 ± 2,857   |
+
+We show classification accuracies and total noise scores (the total number of correct classification for all noise levels). Results are averaged over 10 random seeds, ± one standard deviation. CNN-1 and CNN-2 indicate one or two convolutional layers, respectively
+
+```
 
 
 
