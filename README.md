@@ -1277,13 +1277,13 @@ cat 1.txt
 ----------------------------------------
 
 ### **Description:**
-> ***Examine the contents of the file (1.txt).***
+> ***Display calendar.***
 ---------------------------------------
 
 <strong>Command: </strong>
 
 ```linux
-cat 1.txt
+ncal
 ```
 ----------------------------------------
 
