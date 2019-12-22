@@ -1510,6 +1510,9 @@ sed  -n  p 1.txt 2.txt 3.txt > 0.txt
 ```
 ----------------------------------------
 
+</br>
+<p><strong>Shortcuts: </strong> </p>
+
 ```
 | ctrl+c           | Halts the current command           |  
 | ctrl+z           | Stops the current command           |  
@@ -1521,6 +1524,13 @@ sed  -n  p 1.txt 2.txt 3.txt > 0.txt
 | ctrl+r           | Type to bring up a recent command   | 
  
 ```
+</br>
+
+
+
+
+
+
 
 
 
