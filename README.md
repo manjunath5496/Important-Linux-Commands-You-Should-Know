@@ -1788,6 +1788,17 @@ ping google.com
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Find the location of source/binary file of a command (cal).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+whereis cal
+```
+----------------------------------------
+
  </br>
 <h3>Books:</h3>
 <hr>
