@@ -1660,7 +1660,38 @@ hostid
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Display file type of the file (myfiles.txt).***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+file myfiles.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Create a file (myfiles.txt) containing a text (Hello World).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo 'Hello World' > myfiles.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Create a file (myfiles.txt) containing a text (Hello World).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+printf 'Hello World' > myfiles.txt
+```
+----------------------------------------
 
 
 
