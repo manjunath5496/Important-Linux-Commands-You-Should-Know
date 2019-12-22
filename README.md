@@ -1759,6 +1759,25 @@ whatis cal
 
 ```
 
+```
+### 
+|     Command                |  Description           | 
+|:---------------------------|-------------:          |
+| vi                         | Open vi editor         |  
+| i                          | Go to Insert mode      | 
+| echo "What is your name?"  |                        | 
+| read PERSON                |                        |
+| echo "Hello, $PERSON"      |                        |
+| Hit Escape to return to Normal mode.                |               
+| :w hello.sh                | Save text              | 
+| :q                         | Quit                   | 
+| sh hello.sh                | Output:                | 
+|                            | What is your name?     |  
+|                            | If you enter: Zara Ali |  
+|                            | Hello, Zara Ali        | 
+
+```
+
  </br>
 <h3>Books:</h3>
 <hr>
