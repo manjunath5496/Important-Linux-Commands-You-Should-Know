@@ -1510,7 +1510,7 @@ sed  -n  p 1.txt 2.txt 3.txt > 0.txt
 ```
 ----------------------------------------
 
-
+```
 | ctrl+c           | Halts the current command           |  
 | ctrl+z           | Stops the current command           |  
 |                  |                                     |   
@@ -1520,7 +1520,7 @@ sed  -n  p 1.txt 2.txt 3.txt > 0.txt
 | ctrl+u           | Erases the whole line               | 
 | ctrl+r           | Type to bring up a recent command   | 
  
-
+```
 
 
 
