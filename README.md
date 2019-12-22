@@ -1639,7 +1639,7 @@ stat 1.txt
 ```
 
 ### **Description:**
-> ***Download the file (file.txt) from url (http://website.com/files/file.txt).***
+> ***Download the file (file.txt) from url "http: //website.com/files/file.txt".***
 ---------------------------------------
 
 <strong>Command: </strong>
