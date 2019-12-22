@@ -1552,6 +1552,72 @@ touch test1.txt
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Gather information about hardware components such as CPU, disks, memory, USB controllers etc.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo lshw
+```
+----------------------------------------
+
+### **Description:**
+> ***Gather information about file system partitions.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo fdisk -l
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Displays the line (good morning) in which the string (good) is found in the file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+grep good 1.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Append contents of files (1.txt, 2.txt, 3.txt) into one file (0.txt) using for loop.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+for i in {1..3}; do cat "$i.txt" >> 0.txt; done
+```
+----------------------------------------
+
+### **Description:**
+> ***Search for files (test.txt, test1.txt, test2.txt, test.php, test.html) in a directory as well as its sub-directories.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find test*
+```
+----------------------------------------
+
+### **Description:**
+> ***Displays status related to a file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+stat 1.txt
+```
+----------------------------------------
 
 
 
