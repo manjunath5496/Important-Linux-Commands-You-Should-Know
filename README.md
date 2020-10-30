@@ -1833,7 +1833,16 @@ mv test.txt ./newrepo
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Deletes all the lines in the test.txt containing tue word.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+sed -i "/tue/d" test.txt
+```
+----------------------------------------
 
  </br>
 <h3>Books:</h3>
