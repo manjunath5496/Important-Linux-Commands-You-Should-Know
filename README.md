@@ -1811,6 +1811,16 @@ ls /bin
 ----------------------------------------
 
 
+### **Description:**
+> ***List the files in the bin directory and the etc directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls /bin /etc
+```
+----------------------------------------
 
 
 
