@@ -307,7 +307,7 @@ ifconfig
 
 
 ### **Description:**
-> ***Lists files.***
+> ***Lists all files and directories in the present working directory.***
 ---------------------------------------
 
 <strong>Command: </strong>
