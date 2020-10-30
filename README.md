@@ -1822,7 +1822,16 @@ ls /bin /etc
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Moves the file test.txt to the folder newrepo.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+mv test.txt ./newrepo
+```
+----------------------------------------
 
 
 
