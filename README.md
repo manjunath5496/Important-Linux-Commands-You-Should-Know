@@ -1799,6 +1799,23 @@ whereis cal
 ```
 ----------------------------------------
 
+### **Description:**
+> ***List the files in the bin directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls /bin
+```
+----------------------------------------
+
+
+
+
+
+
+
  </br>
 <h3>Books:</h3>
 <hr>
