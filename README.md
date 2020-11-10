@@ -1968,7 +1968,7 @@ Linux Graphics Drivers: an Introduction</a></li>
  
 <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(45).pdf" style="text-decoration:none;">Cloud on Linux Operating System</a></li>
  <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(46).pdf" style="text-decoration:none;">AWS Security Best Practices</a></li>
- 
+  <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(47).pdf" style="text-decoration:none;">Studying Main Differences Between Linux and Windows Operating Systems</a></li>
  </ul>
  </br>
  
