@@ -1863,6 +1863,23 @@ sed -i "/tue/d" test.txt
  
  </br>
  
+ <table style="width: 537px;">
+<tbody>
+<tr>
+<td style="width: 165px;">
+<p><strong>import os</strong></p>
+<p><br />os.system('ls')</p>
+<p>&nbsp;</p>
+<p><strong>import subprocess</strong></p>
+<p><br />subprocess.call ('ls')</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td style="width: 356px;"><strong>List all the files and directories in the current&nbsp;</strong><strong>directory</strong></td>
+</tr>
+</tbody>
+</table>
+ </br>
  
 <h3>Books:</h3>
 <hr>
