@@ -1845,6 +1845,25 @@ sed -i "/tue/d" test.txt
 ----------------------------------------
 
  </br>
+ 
+ <table>
+<tbody>
+<tr>
+<td>
+<p>import subprocess</p>
+<p><br />subprocess.call ('<strong>linux command</strong>')</p>
+</td>
+<td>
+<p>import os</p>
+<p><br />os.system('<strong>linux command</strong>')</p>
+</td>
+</tr>
+</tbody>
+</table>
+ 
+ </br>
+ 
+ 
 <h3>Books:</h3>
 <hr>
 
