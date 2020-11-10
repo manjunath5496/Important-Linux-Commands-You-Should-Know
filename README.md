@@ -1881,6 +1881,98 @@ sed -i "/tue/d" test.txt
 </table>
  </br>
  
+ <h2>  Papers  </h2>
+
+<ul>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(1).pdf" style="text-decoration:none;">Transcendent Memory and Linux</a></li>
+
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(2).pdf" style="text-decoration:none;">Understanding Linux Malware</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(3).pdf" style="text-decoration:none;">Frightening small children and disconcerting grown-ups: Concurrency in the Linux kernel</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(4).pdf" style="text-decoration:none;">Advanced Linux Security</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(5).pdf" style="text-decoration:none;">Linux As a Real-Time Operating System</a></li>
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(6).pdf" style="text-decoration:none;">The Linux Scheduler: a Decade of Wasted Cores</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(7).pdf" style="text-decoration:none;">Understanding Fileless Attacks on Linux-based IoT Devices with HoneyCloud</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(8).pdf" style="text-decoration:none;"> 
+A Study of Linux File System Evolution </a></li>
+   <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(9).pdf" style="text-decoration:none;">
+A complete guide to Linux process scheduling </a></li>
+  
+   
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(10).pdf" style="text-decoration:none;">An Analysis of Linux Operating System</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(11).pdf" style="text-decoration:none;">Introduction to Linux: A Hands on Guide</a></li>
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(12).pdf" style="text-decoration:none;">Linux Kernel Development: How Fast it is Going, Who is Doing It, What They are Doing, and Who is Sponsoring It</a></li>
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(13).pdf" style="text-decoration:none;">Linux: a Portable Operating System</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(14).pdf" style="text-decoration:none;">Linux MIPS - A soft target: past, present, and future</a></li>
+                              
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(15).pdf" style="text-decoration:none;">An Analysis of Linux Scalability to Many Cores</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(16).pdf" style="text-decoration:none;">Profiling and Tracing in Linux</a></li>
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(17).pdf" style="text-decoration:none;">
+Linux Graphics Drivers: an Introduction</a></li>   
+  
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(18).pdf" style="text-decoration:none;">Optimize Your Infrastructure with Oracle Linux: Minimize Operating Expenses and Maximize Value</a></li> 
+
+  
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(19).pdf" style="text-decoration:none;">Linux Questions and Answers</a></li> 
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(20).pdf" style="text-decoration:none;"> Linux System Administration</a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(21).pdf" style="text-decoration:none;">Modern Day Penetration Testing Distribution Open Source Platform [Kali Linux]</a></li>
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(22).pdf" style="text-decoration:none;">Understanding and Hardening Linux Containers</a></li> 
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(23).pdf" style="text-decoration:none;"> K-Miner: Uncovering Memory Corruption in Linux</a></li> 
+ 
+
+   <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(24).pdf" style="text-decoration:none;">Security Assurance Requirements for Linux Application Container Deployments</a></li>
+ 
+   <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(25).pdf" style="text-decoration:none;">NixOS: A Purely Functional Linux Distribution</a></li>                              
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(26).pdf" style="text-decoration:none;">On the Effectiveness of Full-ASLR on 64-bit Linux</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(27).pdf" style="text-decoration:none;">Proceedings of the Linux Symposium: Volume One</a></li>
+   
+ 
+   <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(28).pdf" style="text-decoration:none;">SCONE: Secure Linux Containers with Intel SGX</a></li>
+ 
+   <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(29).pdf" style="text-decoration:none;">A Comparison of Scheduling Latency in Linux, PREEMPT RT, and LITMUS</a></li>                              
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(30).pdf" style="text-decoration:none;"> The real-time Linux kernel: a Survey on PREEMPT_RT</a></li>
+ 
+   <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(31).pdf" style="text-decoration:none;">Penetration Testing using Linux Tools: Attacks and Defense Strategies</a></li> 
+    <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(32).pdf" style="text-decoration:none;">Transactional system calls on Linux</a></li> 
+
+   <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(33).pdf" style="text-decoration:none;">Reduce Costs and Improve Business Performance with Linux</a></li>                              
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(34).pdf" style="text-decoration:none;">Red Hat Enterprise Linux 7: System Administrator's Guide</a></li> 
+ 
+  <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(35).pdf" style="text-decoration:none;">Linux Performance and Tuning Guidelines</a></li> 
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(36).pdf" style="text-decoration:none;">Analysis and Study of Security Mechanisms inside Linux Kernel</a></li> 
+ 
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(37).pdf" style="text-decoration:none;">Architectural design for a secure Linux operating system</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(38).pdf" style="text-decoration:none;">Secure Programming for Linux and Unix HOWTO</a></li>
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(39).pdf" style="text-decoration:none;">Addressing Security Issues in Linux</a></li> 
+ 
+  <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(40).pdf" style="text-decoration:none;">On the Linux Compatibility Layer in OpenBSD 5.0</a></li> 
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(41).pdf" style="text-decoration:none;">Slurm: Simple Linux Utility for Resource Management</a></li> 
+ 
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(42).pdf" style="text-decoration:none;">Taking a Proactive Approach to Linux Server Patch Management</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(43).pdf" style="text-decoration:none;">The Linux Command Line</a></li>
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(44).pdf" style="text-decoration:none;">Unikernels: The Next Stage of Linux's Dominance</a></li> 
+ 
+<li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(45).pdf" style="text-decoration:none;">Cloud on Linux Operating System</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/Important-Linux-Commands-You-Should-Know/blob/master/liu(46).pdf" style="text-decoration:none;">AWS Security Best Practices</a></li>
+ 
+ </ul>
+ </br>
+ 
+ 
 <h3>Books:</h3>
 <hr>
 
