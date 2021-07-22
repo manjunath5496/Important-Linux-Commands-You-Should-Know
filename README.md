@@ -1881,6 +1881,654 @@ sed -i "/tue/d" test.txt
 </table>
  </br>
  
+ <p><strong>Command:</strong></p>
+<pre spellcheck="false">last reboot
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Show system reboot history</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">dmesg
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Displays the messages from the kernel ring buffer (</strong>a data structure that records messages related to the operation of the kernel<strong>)</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">cat /proc/cpuinfo
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display CPU information</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">cat /proc/meminfo
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display memory information</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">lspci -tv
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display PCI (</strong>Peripheral Component Interconnect<strong>) devices</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">lsusb &ndash;tv
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display USB devices</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">free -h
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display free and used memory (</strong>-h for human readable, -m for MB, -g for GB<strong>)</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">mpstat 1
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display processor related statistics</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">vmstat 1
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display virtual memory statistics</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">iostat 1
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display Input / Output statistics</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">watch df -h
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Execute "df -h" command, showing periodic updates</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ps &ndash;ef
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display all the currently running processes on the system</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ip a
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display all network interfaces and IP address</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">dig wikipedia.org
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display DNS information for domain (</strong>wikipedia.org<strong>)</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">host wikipedia.org
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display the IP address details of the specified domain (</strong>wikipedia.org<strong>)</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">netstat -nutlp
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display listening Transmission Control Protocol (</strong>TCP<strong>) and the User Datagram Protocol (</strong>UDP<strong>) ports and corresponding programs</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">rpm -qa
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>List all installed packages</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">yum list installed
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>List all installed packages (CentOS)</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">yum info httpd
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display description and summary information about package&nbsp;</strong>"httpd"&nbsp;<strong>(CentOS)</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">du -ah
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display disk usage for all files and directories in human readable format</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">du -sh
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display total disk usage off the current directory</strong></p>
+<h3>&nbsp;</h3>
+<p><strong>&nbsp;Command:</strong></p>
+<pre spellcheck="false">cd /etc
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Change to the /etc directory</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ps -A
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>List the status of all the processes along with process id and PID</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">---------- Hello.c &nbsp;-----------------
+
+#include &lt;stdio.h&gt;
+int main()
+{
+&nbsp; printf("Hello world\n");&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;return 0;
+}
+
+
+---------------------------------
+
+
+gcc Hello.c
+
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Compile the C program saved in Hello.c file</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">&nbsp;
+---------- Hello.cpp --------------------
+&nbsp;
+#include &lt;iostream&gt;
+int main()
+{
+std::cout &lt;&lt; "Hello world!";&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;return 0;
+}
+
+-----------------------------------------
+
+
+g++ Hello.cpp
+
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Compile the C++ program saved in Hello.cpp file</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">tty
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Displays the file name of the terminal connected to standard input</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">&nbsp;
+-------- MyClass.java ----------------------------
+&nbsp;
+&nbsp;
+public class MyClass {
+public static void main(String [] args) {
+System.out.println("Hello, World!");&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+}
+}
+
+------------------------------------------------
+
+javac MyClass.java
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Compile the Java program saved in MyClass.java file</strong>&nbsp;<strong>using javac compiler</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">od -b myfiles.txt
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Displays the contents of&nbsp;</strong>myfiles.txt<strong>&nbsp;file in octal format</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">od -c myfiles.txt
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Displays the contents of&nbsp;</strong>myfiles.txt<strong>&nbsp;file in character format</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">od -An -c myfiles.txt
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Displays the contents of&nbsp;</strong>myfiles.txt<strong>&nbsp;file in character format but with no offset information</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">csplit myfiles.txt 13 62 101
+</pre>
+<p>&nbsp;Description:</p>
+<p>If the file&nbsp;<strong>myfiles.txt</strong>&nbsp;has 123 lines, the&nbsp;<strong>csplit command</strong>&nbsp;would create four files: the xx00 file would contain lines 1&minus;12, the xx01 file would contain lines 13&minus;61, the xx02 file would contain lines 62&minus;100, the xx03 file would contain lines 101&minus;123</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">md5sum myfiles.txt
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Prints a 32-character (128-bit) checksum of&nbsp;</strong>myfiles.txt<strong>&nbsp;file using the MD5 algorithm</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">more myfiles.txt
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Displays the content of&nbsp;</strong>myfiles.txt<strong>&nbsp;file</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">sha1sum myfiles.txt
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Prints SHA1 (160-bit) checksum of&nbsp;</strong>myfiles.txt<strong>&nbsp;file</strong></p>
+<p><strong>&nbsp;</strong></p>
+<blockquote><strong><em>SHA 1</em></strong><em>&nbsp;&rarr; Secure Hash Algorithm 1</em></blockquote>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">shred myfiles.txt
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Overwrites the&nbsp;</strong>myfiles.txt<strong>&nbsp;file repeatedly &minus; in order to make it harder for even very expensive hardware probing to recover the data</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">cat myfile.txt
+
+01. Einstein
+02. Newton
+03. Maxwell
+04. Tesla
+05. Edison
+
+tac myfile.txt
+
+05. Edison
+04. Tesla
+03. Maxwell
+02. Newton
+01. Einstein
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Print the lines of&nbsp;</strong>myfile.txt<strong>&nbsp;in reverse (from last line to first)</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">chkconfig --list
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Displays a list of system services and whether they are started (</strong>on<strong>) or stopped (</strong>off<strong>) in run levels 0&minus;6</strong></p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">chkconfig --list
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Displays a list of system services and whether they are started (</strong>on<strong>) or stopped (</strong>off<strong>) in run levels 0&minus;6</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">halt -p
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Power-off the system</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">lastlog
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Prints the details of the last login (</strong>login-name, port and last login time<strong>)</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">lastlog -t 1
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Displays the login information (</strong>1 day ago<strong>)</strong></p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">lastlog -u manju
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display lastlog information for a particular user (</strong>manju<strong>)</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">cat /etc/passwd
+
+</pre>
+<p>&nbsp;</p>
+<pre spellcheck="false">more /etc/passwd
+
+</pre>
+<p>&nbsp;</p>
+<pre spellcheck="false">less /etc/passwd
+
+</pre>
+<p>&nbsp;</p>
+<pre spellcheck="false">getent passwd
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>List all users on Linux</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">tail -5 /etc/passwd
+
+head -5 /etc/passwd
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>List last 5 users on Linux</strong></p>
+<p><strong>List first 5 users on Linux</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">wall "The system will be shutdown in 10 minutes."
+
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>The message (</strong>The system will be shutdown in 10 minutes.<strong>) will be broadcasted to all users that are currently logged in</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">chage -l manju
+
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>List the password and its related details for a user (</strong>manju<strong>)</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">chage -M 10 manju
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Set Password Expiry Date for an user (</strong>manju<strong>)</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">chage -E "2020-07-30" manju
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Set the Account Expiry Date for an User (</strong>manju<strong>)</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">chage -I 10 manju
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Force the user (</strong>manju<strong>) account to be locked after 10 inactivity days</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ftp 192.168.42.77
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Connect to an FTP server at remote server IP address "</strong>192.168.42.77<strong>"</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">arp &ndash;a
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Lists all the peers connected at various interfaces along with their&nbsp;</strong>MAC Addresses<strong>&nbsp;and IP addresses</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">dnsdomainname
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display the system's DNS domain name</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">domainname
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display the name of the domain your machine belongs to</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">echo 'Hello World!' | base64
+
+Output: SGVsbG8gV29ybGQhCg==
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Encode text (</strong>Hello World!<strong>) to base64</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">echo 'SGVsbG8gV29ybGQhCg==' | base64 -d
+
+Output: Hello World!
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Decode (</strong>SGVsbG8gV29ybGQhCg==<strong>) to text (</strong>Hello World!<strong>)</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">fc-cache -f &ndash;v
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Build font information cache files</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">cat 1.txt
+
+Einstein
+Newton
+Albert
+
+fmt 1.txt
+
+Einstein Newton Albert
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Formats text in a single line</strong></p>
+<p><strong>&nbsp;</strong></p>
+<pre spellcheck="false">cat phy.txt
+
+Albert Einstein was a German-born theoretical physicist, widely acknowledged to be one of the greatest physicists of all time. Einstein is known for developing the theory of relativity, but he also made important contributions to the development of the theory of quantum mechanics.
+
+
+fmt -w 1&nbsp; phy.txt
+
+ Albert
+ Einstein
+ was
+ a
+ German-born
+ theoretical
+ physicist,
+ widely
+ acknowledged
+ to
+ be
+ one
+ of
+ the
+ greatest
+ physicists
+ of
+ all
+ time.
+ Einstein
+ is
+ known
+ for
+ developing
+ the
+ theory
+ of
+ relativity,
+ but
+ he
+ also
+ made
+ important
+ contributions
+ to
+ the
+ development
+ of
+ the
+ theory
+ of
+ quantum
+ mechanics.
+
+</pre>
+<p>&nbsp;</p>
+<pre spellcheck="false">cat phy.txt
+
+Albert Einstein was a German-born theoretical physicist, widely acknowledged to be one of the greatest physicists of all time. Einstein is known for developing the theory of relativity, but he also made important contributions to the development of the theory of quantum mechanics.
+
+
+fold -w 20&nbsp; phy.txt
+
+Albert Einstein was
+ a German-born theor
+etical physicist, wi
+dely acknowledged to
+ be one of the great
+est physicists of al
+l time. Einstein is 
+known for developing
+ the theory of relat
+ivity, but he also m
+ade important contri
+butions to the devel
+opment of the theory
+ of quantum mechanic
+s.
+</pre>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">traceroute google.com
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Prints the route that a packet takes to reach the Google (</strong>172.217.26.206<strong>) host from the local machine</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">cat 1.txt
+
+Einstein
+Newton
+Albert
+
+gzip 1.txt
+
+zcat 1.txt.gz
+
+Einstein
+Newton
+Albert
+
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>View the contents of zipped file</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">zdiff 1.txt.gz 2.txt.gz
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Compare the contents of two zipped files (</strong>1.txt.gz, 2.txt.gz<strong>)</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ss | less
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>List all connections</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ss -aA tcp
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Filter out TCP (</strong>Transmission Control Protocol<strong>) connections</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ss -aA udp
+
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Filter out UDP (</strong>User Datagram Protocol<strong>) connections</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ss -lnt
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display only listening sockets</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ss -ltp
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Print process name and PID</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ss -s
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Print summary statistics</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ss -tl6
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display only IPv6 connections</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ss -tl -f inet
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display only IPv4 socket connections</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">ss -t4 state established
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display all IPv4 TCP sockets that are in connected state</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">pmap 3244
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>View the memory map of a process with Process ID (</strong>3244<strong>)</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">apropos -r 'remove file'
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Find command that removes file</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">apropos editor
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Display information about the editing programs that are available on a system</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Command:</strong></p>
+<pre spellcheck="false">apropos pstree
+</pre>
+<p>&nbsp;Description:</p>
+<p><strong>Provide information about the pstree command (</strong>which displays the names of the processes currently on the system in the form of a tree diagram<strong>)</strong></p>
+ 
+ </br>
+ 
+ 
+ 
+ 
+ 
  <h2>  Papers  </h2>
 
 <ul>
