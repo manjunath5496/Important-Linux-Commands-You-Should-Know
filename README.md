@@ -2522,7 +2522,9 @@ Albert
 </pre>
 <p>&nbsp;Description:</p>
 <p><strong>Provide information about the pstree command (</strong>which displays the names of the processes currently on the system in the form of a tree diagram<strong>)</strong></p>
+ </br>
  
+ <hr>
  
  <p>The <strong>apropos command</strong> is useful when you know what you want to do, but you have no idea what command you should be using to do it. If you were wondering how to locate files, for example, the commands</p>
 <table>
@@ -2548,7 +2550,7 @@ Albert
 <p>&nbsp;</p>
 <p>would have a lot of suggestions to offer.</p>
  
- 
+ <hr>
  
  
  
