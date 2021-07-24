@@ -2654,8 +2654,730 @@ echo $0
 </table>
  </br>
  
+ <p><strong>Command:</strong></p>
+<div>
+<pre><code>echo *</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Print all files and folders &minus; similar to </strong> ls command</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ps -p $$</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>Output:</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>   PID  TTY       TIME   CMD</code></pre>
+<pre><code>  3352 pts/0    00:00:00 bash</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Print the process ID of the current shell </strong> ($$ is the process ID of the current shell)</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>cat /etc/shells</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>List shells</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>last</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>List last logins of users and what happened such as "</strong> shutdown<strong>" or "</strong>crash<strong>" etc.</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>last</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>List last logins of users and what happened such as "</strong> shutdown<strong>" or "</strong>crash<strong>" etc.</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>bzip2 -k phy.txt</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Compresses but does not deletes the original file</strong></p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="184">
+<p align="center">phy.txt &rarr; phy.txt.bz2</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>bzip2 -d phy.txt.bz2</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Decompresses the compressed file (</strong> phy.txt.bz2<strong>)</strong></p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="188">
+<p align="center">phy.txt.bz2 &rarr; phy.txt</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>bzcat phy.txt.bz2</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display the contents of compressed file (</strong> phy.txt.bz2<strong>)</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>bunzip2 phy.txt.bz2</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Decompresses the compressed file (</strong> phy.txt.bz2<strong>)</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>crontab &ndash;l</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display current logged-in user's crontab entries</strong></p>
+<div>
+<pre><code>cat /dev/null &gt; phy.txt</code></pre>
+</div>
+<div>
+<pre><code>cp /dev/null phy.txt</code></pre>
+</div>
+<div>
+<pre><code>echo "" &gt; phy.txt</code></pre>
+</div>
+<div>
+<pre><code>echo &gt; phy.txt</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Empty the content of a file (</strong> phy.txt<strong>)</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre>&nbsp;</pre>
+<pre><code>nohup ping google.com &amp;</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Ping </strong> google.com<strong> and send the process to the background</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre>&nbsp;</pre>
+<pre><code>nohup ping google.com &gt; log.txt &amp;</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Save the ping logs to log.txt </strong></p>
+<div>
+<pre><code>pgrep -a ping</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>Output:</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>3858 ping google.com</code></pre>
+<pre><code>4200 ping google.com</code></pre>
+<pre><code>4236 ping google.com</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>kill 3858</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>pgrep -a ping</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>Output:</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>4200 ping google.com</code></pre>
+<pre><code>4236 ping google.com</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ls -la /home</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display the contents of </strong> /home</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sudo shutdown 2</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Power-off the machine after 2 minutes</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>shutdown -c</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Cancel the shutdown process</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>pr 36.txt</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display the contents of the file (</strong> 36.txt<strong>) one page after the other</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>stty &ndash;a</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display all current terminal settings</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ls -1</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>List files one per line</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>yes John</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Outputs a string (</strong> John<strong>) repeatedly until killed</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>vdir</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>List files and directories in the current directory (</strong> one per line<strong>) with details</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>who -b</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Print when the system was booted</strong></p>
+<p align="center">&nbsp;</p>
+<div>
+<pre>&nbsp;</pre>
+<pre><code># Open phy.txt with nano</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>nano phy.txt</code></pre>
+<pre>&nbsp;</pre>
+<pre>&nbsp;</pre>
+<pre><code># Open phy.txt with vim</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>vim phy.txt</code></pre>
+<pre>&nbsp;</pre>
+<pre>&nbsp;</pre>
+</div>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div>
+<p align="center">User Request</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div>
+<p align="center">Shell</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div>
+<p align="center">Linux Kernel</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div>
+<p align="center">Application</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br clear="ALL" /> </p>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div>
+<p align="center">Computer Hardware</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<pre><code>w --ip-addr</code></pre>
+<pre>&nbsp;</pre>
+<pre><code># Displays information regarding the users</code> <code>currently on the machine, login time, IDLE time, TTY and CPU time</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>Output:</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>11:12:10 up  1:29,  2 users,  load average: 0.02, 0.04, 0.10</code></pre>
+<pre><code>USER     TTY      FROM  LOGIN@   IDLE   JCPU   PCPU WHAT</code></pre>
+<pre><code>manju    :0       :0    02:43   ?xdm?   3:30   0.65s gdm-session-worker [pa</code></pre>
+<pre><code>manju    pts/0    :0    11:01    2.00s  0.10s  0.01s w --ip-addr</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>w &ndash;short</code></pre>
+<pre><code># Omits CPU time and login information </code></pre>
+<pre><code>Output:</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>11:11:46 up  1:28,  2 users,  load average: 0.02, 0.04, 0.11</code></pre>
+<pre><code>USER     TTY      FROM              IDLE WHAT</code></pre>
+<pre><code>manju    :0       :0               ?xdm?  gdm-session-worker [pam/gdm-password]</code></pre>
+<pre><code>manju    pts/0    :0                2.00s w --short</code></pre>
+</div>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>findmnt</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display a list of currently mounted file systems</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ip addr show</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>List IP addresses and network interfaces</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>netstat -pnltu</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>List active (listening) ports</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>Journalctl</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display systemd, kernel and journal logs</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sudo systemctl status network</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display the status of network service</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sudo systemctl start network</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Start the network service</strong></p>
+<p align="center">&nbsp;</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sudo systemctl stop network</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Stop the network service</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sestatus -b</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display the current state of Booleans</strong></p>
+<p align="center">&nbsp;</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>getenforce</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Reports whether </strong> SELinux<strong> is enforcing, permissive or disabled</strong></p>
+<p align="center">&nbsp;</p>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div>
+<p align="center"><strong>Security-Enhanced Linux</strong> (SELinux) is a security architecture for Linux systems that allows administrators to have more control over who can access the system</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<pre><code>setenforce 0</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<div>
+<pre><code>getenforce</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<div>
+<pre><code>Output:</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>Permissive</code></pre>
+</div>
+<div>
+<pre><code>setenforce 1</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<div>
+<pre><code>getenforce</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<div>
+<pre><code>Output:</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>Enforcing</code></pre>
+</div>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div>
+<p>&nbsp;</p>
+<ul>
+<li><strong>Enforcing</strong> - SELinux security policy is enforced.</li>
+<li><strong>Permissive</strong> - SELinux prints warnings instead of enforcing.</li>
+<li><strong>Disabled</strong> - No SELinux policy is loaded.</li>
+</ul>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sestatus</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong> Display the current status of the SELinux that is running on your system </strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ps &ndash;aef</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display full listing of processes on your system</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sar</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display System Activity Report</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ulimit</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Report the resource limit of the current user</strong></p>
+<div>
+<pre> 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
  
  
+ 
+  
+  
+ 
+<code>Output:</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>Unlimited           </code><code>The current user can consume all the resources the current system supports</code></pre>
+<pre>&nbsp;</pre>
+<pre>&nbsp;</pre>
+</div>
+<table border="1" width="669" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="669">
+<p><strong>2 types of resource limitation:</strong></p>
+<ul>
+<li><strong>Hard resource limit: </strong> The physical limit that the user can reach.</li>
+<li><strong>Soft resource limit: </strong> The limit that is manageable by the user ( <strong>its value can go up to the hard limit</strong>)</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ulimit -a</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Report all the resource limits for the current user</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ulimit &ndash;s</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Check the maximum stack size of the current user</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ulimit &ndash;e</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Check out the max scheduling priority of the current user</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ulimit &ndash;u</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display the maximum number of user processes</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ulimit &ndash;v</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Check out the size of virtual memory</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>ulimit &ndash;n</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Check out how many file descriptors a process can have</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>man limits.conf</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display the in-depth information on the </strong> limits.conf<strong> configuration file</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sar -V</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display the sar version</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sar -u 2 5</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong> Report CPU details total 5 times with the interval of 2 seconds </strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sar -n DEV 1 3 | egrep -v lo</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong> Report about network interface, network speed, IPV4, TCPV4, ICMPV4 network traffic and errors </strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sar -v 1 3</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong> Report details about the process, kernel thread, i-node, and the file tables </strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sar -S 1 3</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Report statistics about swapping</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sar -b 1 3</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong> Report details about I/O operations like transaction per second, read per second, write per second </strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sudo systemctl status firewalld</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display the status of the </strong> firewalld</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sudo systemctl start firewalld</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Start the </strong> firewalld<strong> service</strong></p>
+<p align="center">&nbsp;</p>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div>
+<p align="center"><strong>firewalld </strong> is a firewall management tool for Linux operating systems</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>firewall-config</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Start the graphical firewall configuration tool</strong></p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="226">
+<p align="center">firewall-cmd</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>firewall-cmd --list-all-zones</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>List all zones</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>firewall-cmd --get-default-zone</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Check the currently set default zone</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>firewall-cmd --list-services</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display currently allowed service on your system</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>firewall-cmd --list-ports</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>List the ports that are open on your system</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>firewall-cmd --zone=work --list-services</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>List services that are allowed for the public zone</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>mtr --report google.com</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong> Provides information about the route that Internet traffic takes between the local system and a remote host ( </strong> google.com<strong>)</strong></p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sudo yum install samba</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>install Samba (</strong> CentOS<strong>)</strong></p>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div>
+<p align="center"><strong>Samba </strong> is client/server technology that implements network resource sharing across operating systems. With Samba, files and printers can be shared across Windows, Mac and Linux/UNIX clients.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p align="center">&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>sudo firewall-cmd --add-service samba &ndash;permanent</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Add Samba service to firewalld</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>zip q.zip q.txt</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Create a zip file (</strong> q.zip<strong>)</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>unzip q.zip</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Unzip a zip file (</strong> q.zip<strong>)</strong></p>
+<div>
+<pre>&nbsp;</pre>
+<pre><code>zipcloak q.zip</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>-----------------------------------------------------------------------------</code></pre>
+<pre>&nbsp;</pre>
+<pre><code># zipcloak prompts you for a password, and then ask you to confirm it:</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>   Enter password: </code></pre>
+<pre><code>   Verify password:</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>...if the passwords match, it encrypts q.zip file </code></pre>
+<pre>&nbsp;</pre>
+<pre><code>----------------------------------------------------------------------------</code></pre>
+<pre>&nbsp;</pre>
+<pre>&nbsp;</pre>
+<pre><code>unzip q.zip</code></pre>
+<pre>&nbsp;</pre>
+<pre>&nbsp;</pre>
+<pre><code>#  When you try to unzip the q.zip file, it prompts you for the password before  allowing you to extract the file (q.txt) it contains</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>zgrep -l "Einstein" *</code></pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Display the names of the files with the word (</strong> Einstein<strong>) present in it</strong></p>
+<p><strong>Command:</strong></p>
+<div>
+<pre><code>zipsplit -n 1048576 q.zip</code></pre>
+<pre>&nbsp;</pre>
+</div>
+<p>Description:</p>
+<p align="center"><strong>Split </strong> q.zip<strong> file to create a sequence of zipfiles </strong>(q1.zip, q2.zip&hellip;..) &minus; each no larger than <strong>1048576 bytes</strong> (one megabyte)</p>
+<div>
+<pre>&nbsp;</pre>
+<pre><code>You could concatenate (q1.zip, q2.zip&hellip;..) into a new file, w.zip, with the command:</code></pre>
+<pre>&nbsp;</pre>
+<pre><code>cat q*.zip &gt; w.zip</code></pre>
+<pre>&nbsp;</pre>
+<pre>&nbsp;</pre>
+</div>
+ </br>
  
  <h2>  Papers  </h2>
 
