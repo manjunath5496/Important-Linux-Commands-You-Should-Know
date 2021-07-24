@@ -2663,12 +2663,12 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>ps -p $$</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>Output:</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>   PID  TTY       TIME   CMD</code></pre>
 <pre><code>  3352 pts/0    00:00:00 bash</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Print the process ID of the current shell </strong> ($$ is the process ID of the current shell)</p>
@@ -2729,14 +2729,14 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>bunzip2 phy.txt.bz2</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Decompresses the compressed file (</strong> phy.txt.bz2<strong>)</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>crontab &ndash;l</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display current logged-in user's crontab entries</strong></p>
@@ -2751,49 +2751,49 @@ echo $0
 </div>
 <div>
 <pre><code>echo &gt; phy.txt</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Empty the content of a file (</strong> phy.txt<strong>)</strong></p>
 <p><strong>Command:</strong></p>
 <div>
-<pre>&nbsp;</pre>
+
 <pre><code>nohup ping google.com &amp;</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Ping </strong> google.com<strong> and send the process to the background</strong></p>
 <p><strong>Command:</strong></p>
 <div>
-<pre>&nbsp;</pre>
+
 <pre><code>nohup ping google.com &gt; log.txt &amp;</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Save the ping logs to log.txt </strong></p>
 <div>
 <pre><code>pgrep -a ping</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>Output:</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>3858 ping google.com</code></pre>
 <pre><code>4200 ping google.com</code></pre>
 <pre><code>4236 ping google.com</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>kill 3858</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>pgrep -a ping</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>Output:</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>4200 ping google.com</code></pre>
 <pre><code>4236 ping google.com</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>ls -la /home</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display the contents of </strong> /home</p>
@@ -2812,28 +2812,28 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>pr 36.txt</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display the contents of the file (</strong> 36.txt<strong>) one page after the other</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>stty &ndash;a</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display all current terminal settings</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>ls -1</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>List files one per line</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>yes John</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Outputs a string (</strong> John<strong>) repeatedly until killed</strong></p>
@@ -2851,90 +2851,37 @@ echo $0
 <p align="center"><strong>Print when the system was booted</strong></p>
 <p align="center">&nbsp;</p>
 <div>
-<pre>&nbsp;</pre>
+
 <pre><code># Open phy.txt with nano</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>nano phy.txt</code></pre>
-<pre>&nbsp;</pre>
-<pre>&nbsp;</pre>
+
+
 <pre><code># Open phy.txt with vim</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>vim phy.txt</code></pre>
-<pre>&nbsp;</pre>
-<pre>&nbsp;</pre>
+
+
 </div>
-<table width="100%" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td>
-<div>
-<p align="center">User Request</p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-<table width="100%" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td>
-<div>
-<p align="center">Shell</p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-<table width="100%" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td>
-<div>
-<p align="center">Linux Kernel</p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-<table width="100%" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td>
-<div>
-<p align="center">Application</p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-<p><br clear="ALL" /> </p>
-<table width="100%" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td>
-<div>
-<p align="center">Computer Hardware</p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
+
+
+
 <div>
 <pre><code>w --ip-addr</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code># Displays information regarding the users</code> <code>currently on the machine, login time, IDLE time, TTY and CPU time</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>Output:</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>11:12:10 up  1:29,  2 users,  load average: 0.02, 0.04, 0.10</code></pre>
 <pre><code>USER     TTY      FROM  LOGIN@   IDLE   JCPU   PCPU WHAT</code></pre>
 <pre><code>manju    :0       :0    02:43   ?xdm?   3:30   0.65s gdm-session-worker [pa</code></pre>
 <pre><code>manju    pts/0    :0    11:01    2.00s  0.10s  0.01s w --ip-addr</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>w &ndash;short</code></pre>
 <pre><code># Omits CPU time and login information </code></pre>
 <pre><code>Output:</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>11:11:46 up  1:28,  2 users,  load average: 0.02, 0.04, 0.11</code></pre>
 <pre><code>USER     TTY      FROM              IDLE WHAT</code></pre>
 <pre><code>manju    :0       :0               ?xdm?  gdm-session-worker [pam/gdm-password]</code></pre>
@@ -2955,28 +2902,28 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>netstat -pnltu</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>List active (listening) ports</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>Journalctl</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display systemd, kernel and journal logs</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>sudo systemctl status network</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display the status of network service</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>sudo systemctl start network</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Start the network service</strong></p>
@@ -2984,7 +2931,7 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>sudo systemctl stop network</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Stop the network service</strong></p>
@@ -2992,7 +2939,7 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>sestatus -b</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display the current state of Booleans</strong></p>
@@ -3000,7 +2947,7 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>getenforce</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Reports whether </strong> SELinux<strong> is enforcing, permissive or disabled</strong></p>
@@ -3018,28 +2965,28 @@ echo $0
 </table>
 <div>
 <pre><code>setenforce 0</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <div>
 <pre><code>getenforce</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <div>
 <pre><code>Output:</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>Permissive</code></pre>
 </div>
 <div>
 <pre><code>setenforce 1</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <div>
 <pre><code>getenforce</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <div>
 <pre><code>Output:</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>Enforcing</code></pre>
 </div>
 <table width="100%" cellspacing="0" cellpadding="0">
@@ -3064,21 +3011,21 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>sestatus</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong> Display the current status of the SELinux that is running on your system </strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>ps &ndash;aef</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display full listing of processes on your system</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>sar</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display System Activity Report</strong></p>
@@ -3110,10 +3057,10 @@ echo $0
   
  
 <code>Output:</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>Unlimited           </code><code>The current user can consume all the resources the current system supports</code></pre>
-<pre>&nbsp;</pre>
-<pre>&nbsp;</pre>
+
+
 </div>
 <table border="1" width="669" cellspacing="0" cellpadding="0">
 <tbody>
@@ -3137,42 +3084,42 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>ulimit &ndash;s</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Check the maximum stack size of the current user</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>ulimit &ndash;e</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Check out the max scheduling priority of the current user</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>ulimit &ndash;u</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display the maximum number of user processes</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>ulimit &ndash;v</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Check out the size of virtual memory</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>ulimit &ndash;n</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Check out how many file descriptors a process can have</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>man limits.conf</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display the in-depth information on the </strong> limits.conf<strong> configuration file</strong></p>
@@ -3216,7 +3163,7 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>sudo systemctl status firewalld</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Display the status of the </strong> firewalld</p>
@@ -3288,7 +3235,7 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>mtr --report google.com</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong> Provides information about the route that Internet traffic takes between the local system and a remote host ( </strong> google.com<strong>)</strong></p>
@@ -3296,7 +3243,7 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>sudo yum install samba</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>install Samba (</strong> CentOS<strong>)</strong></p>
@@ -3316,45 +3263,45 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>sudo firewall-cmd --add-service samba &ndash;permanent</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Add Samba service to firewalld</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>zip q.zip q.txt</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Create a zip file (</strong> q.zip<strong>)</strong></p>
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>unzip q.zip</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Unzip a zip file (</strong> q.zip<strong>)</strong></p>
 <div>
-<pre>&nbsp;</pre>
+
 <pre><code>zipcloak q.zip</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>-----------------------------------------------------------------------------</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code># zipcloak prompts you for a password, and then ask you to confirm it:</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>   Enter password: </code></pre>
 <pre><code>   Verify password:</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>...if the passwords match, it encrypts q.zip file </code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>----------------------------------------------------------------------------</code></pre>
-<pre>&nbsp;</pre>
-<pre>&nbsp;</pre>
+
+
 <pre><code>unzip q.zip</code></pre>
-<pre>&nbsp;</pre>
-<pre>&nbsp;</pre>
+
+
 <pre><code>#  When you try to unzip the q.zip file, it prompts you for the password before  allowing you to extract the file (q.txt) it contains</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p><strong>Command:</strong></p>
 <div>
@@ -3365,17 +3312,17 @@ echo $0
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>zipsplit -n 1048576 q.zip</code></pre>
-<pre>&nbsp;</pre>
+
 </div>
 <p>Description:</p>
 <p align="center"><strong>Split </strong> q.zip<strong> file to create a sequence of zipfiles </strong>(q1.zip, q2.zip&hellip;..) &minus; each no larger than <strong>1048576 bytes</strong> (one megabyte)</p>
 <div>
-<pre>&nbsp;</pre>
+
 <pre><code>You could concatenate (q1.zip, q2.zip&hellip;..) into a new file, w.zip, with the command:</code></pre>
-<pre>&nbsp;</pre>
+
 <pre><code>cat q*.zip &gt; w.zip</code></pre>
-<pre>&nbsp;</pre>
-<pre>&nbsp;</pre>
+
+
 </div>
  </br>
  
