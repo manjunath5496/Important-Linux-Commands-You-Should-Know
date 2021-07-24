@@ -2557,6 +2557,44 @@ Albert
  </br>
  
  
+ ### **Description:**
+> ***Print the Default shell of user.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo $SHELL
+```
+----------------------------------------
+ 
+ 
+  
+ ### **Description:**
+> ***Display the name of the currently running process ($0 is the name of the running process). If you use it inside of a shell then it will return the name of the shell. If you use it inside of a script, it will return the name of the script.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo $0
+```
+----------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </br>
+ 
+ 
+ 
+ 
+ 
  
  
  
