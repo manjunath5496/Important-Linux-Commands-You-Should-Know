@@ -3005,9 +3005,7 @@ echo $0
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 <p><strong>Command:</strong></p>
 <div>
 <pre><code>sestatus</code></pre>
