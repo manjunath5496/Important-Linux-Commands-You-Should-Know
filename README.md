@@ -2592,8 +2592,67 @@ echo $0
  </br>
  
  
- 
- 
+ <table width="726">
+<tbody>
+<tr>
+<td width="366">
+<p><strong>Linux</strong></p>
+</td>
+<td width="360">
+<p><strong>Unix</strong></p>
+</td>
+</tr>
+<tr>
+<td width="366">
+<p>Free to use (<strong>open source</strong>)</p>
+</td>
+<td width="360">
+<p>Licensed Operating System (<strong>closed source</strong>)</p>
+</td>
+</tr>
+<tr>
+<td width="366">
+<p>Linux is just the kernel</p>
+</td>
+<td width="360">
+<p>Unix is a complete package of Operating System</p>
+</td>
+</tr>
+<tr>
+<td width="366">
+<p>Bash (<strong>Bourne Again SHell</strong>) is default shell for Linux</p>
+</td>
+<td width="360">
+<p>Bourne Shell is default shell for Unix</p>
+</td>
+</tr>
+<tr>
+<td width="366">
+<p>Portable and is booted from a USB Stick</p>
+</td>
+<td width="360">
+<p>Unportable</p>
+</td>
+</tr>
+<tr>
+<td width="366">
+<p>Source code is accessible to the general public</p>
+</td>
+<td width="360">
+<p>Source code is not accessible to anyone</p>
+</td>
+</tr>
+<tr>
+<td width="366">
+<p>Uses Graphical User Interface with an optional Command Line Interface</p>
+</td>
+<td width="360">
+<p>Uses Command Line Interface</p>
+</td>
+</tr>
+</tbody>
+</table>
+ </br>
  
  
  
