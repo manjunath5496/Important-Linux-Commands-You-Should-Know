@@ -295,13 +295,13 @@ date -- set 12:11:02
 ----------------------------------------
 
 ### **Description:**
-> ***View and change the configuration of the network interfaces on the system.***
+> ***View Specific Disk Partition in Linux.***
 ---------------------------------------
 
 <strong>Command: </strong>
 
 ```linux
-ifconfig
+fdisk -l /dev/sda
 ```
 ----------------------------------------
 
