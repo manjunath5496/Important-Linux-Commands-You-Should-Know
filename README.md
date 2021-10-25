@@ -2234,9 +2234,27 @@ tac myfile.txt
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Displays a list of system services and whether they are started (on) or stopped (off) in run levels 0−6.***
+---------------------------------------
 
+<strong>Command: </strong>
 
+```linux
+chkconfig --list
+```
+----------------------------------------
 
+### **Description:**
+> ***Power-off the system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+halt -p
+```
+----------------------------------------
 
  </br>
  
