@@ -1949,8 +1949,221 @@ vmstat 1
 
 
 
+### **Description:**
+> ***Display Input / Output statistics.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+iostat 1
+```
+----------------------------------------
 
 
+### **Description:**
+> ***Execute "df -h" command, showing periodic updates.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+watch df -h
+```
+----------------------------------------
+
+### **Description:**
+> ***Display all the currently running processes on the system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ps –ef
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display all network interfaces and IP address.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ip a
+```
+----------------------------------------
+
+### **Description:**
+> ***Display DNS information for domain (wikipedia.org).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+dig wikipedia.org
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the IP address details of the specified domain (wikipedia.org).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+host wikipedia.org
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display listening Transmission Control Protocol (TCP) and the User Datagram Protocol (UDP) ports and corresponding programs.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+netstat -nutlp
+```
+----------------------------------------
+
+### **Description:**
+> ***List all installed packages.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+rpm -qa
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List all installed packages (CentOS).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+yum list installed
+```
+----------------------------------------
+
+### **Description:**
+> ***Display description and summary information about package "httpd" (CentOS).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+yum info httpd
+```
+----------------------------------------
+
+### **Description:**
+> ***Display disk usage for all files and directories in human readable format.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+du -ah
+```
+----------------------------------------
+
+### **Description:**
+> ***Display total disk usage off the current directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+du -sh
+```
+----------------------------------------
+
+### **Description:**
+> ***Change to the /etc directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cd /etc
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List the status of all the processes along with process id and PID.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ps -A
+```
+----------------------------------------
+
+### **Description:**
+> ***Displays the file name of the terminal connected to standard input.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+tty
+```
+----------------------------------------
+
+### **Description:**
+> ***Displays the contents of myfiles.txt file in octal format.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+od -b myfiles.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Displays the contents of myfiles.txt file in character format.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+od -c myfiles.txt
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Displays the contents of myfiles.txt file in character format but with no offset information.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+od -An -c myfiles.txt
+```
+----------------------------------------
+
+
+### **Description:**
+> ***If the file myfiles.txt has 123 lines, the csplit command would create four files: the xx00 file would contain lines 1−12, the xx01 file would contain lines 13−61, the xx02 file would contain lines 62−100, the xx03 file would contain lines 101−123.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+csplit myfiles.txt 13 62 101
+```
+----------------------------------------
 
 
 
