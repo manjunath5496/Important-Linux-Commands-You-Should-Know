@@ -1844,6 +1844,116 @@ sed -i "/tue/d" test.txt
 ```
 ----------------------------------------
 
+
+### **Description:**
+> ***Show system reboot history.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+last reboot
+```
+----------------------------------------
+
+### **Description:**
+> ***Displays the messages from the kernel ring buffer (a data structure that records messages related to the operation of the kernel).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+dmesg
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display CPU information.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat /proc/cpuinfo
+```
+----------------------------------------
+
+### **Description:**
+> ***Display memory information.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat /proc/meminfo
+```
+----------------------------------------
+
+### **Description:**
+> ***Display PCI (Peripheral Component Interconnect) devices.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lspci -tv
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display USB devices.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lsusb –tv
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display free and used memory (-h for human readable, -m for MB, -g for GB).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+free -h
+```
+----------------------------------------
+
+### **Description:**
+> ***Display processor related statistics.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+mpstat 1
+```
+----------------------------------------
+
+### **Description:**
+> ***Display virtual memory statistics.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+vmstat 1
+```
+----------------------------------------
+
+
+
+
+
+
+
+
  </br>
  
  <h2>  Papers  </h2>
