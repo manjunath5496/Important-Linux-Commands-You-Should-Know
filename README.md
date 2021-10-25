@@ -2217,6 +2217,7 @@ shred myfiles.txt
 
 ```linux
 cat myfile.txt
+
 01. Einstein
 02. Newton
 03. Maxwell
@@ -2224,6 +2225,7 @@ cat myfile.txt
 05. Edison
 
 tac myfile.txt
+
 05. Edison
 04. Tesla
 03. Maxwell
