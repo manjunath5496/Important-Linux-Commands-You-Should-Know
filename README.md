@@ -2165,6 +2165,75 @@ csplit myfiles.txt 13 62 101
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Prints a 32-character (128-bit) checksum of myfiles.txt file using the MD5 algorithm.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+md5sum myfiles.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Displays the content of myfiles.txt file.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+more myfiles.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Prints Secure Hash Algorithm 1 (160-bit) checksum of myfiles.txt file.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sha1sum myfiles.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Overwrites the myfiles.txt file repeatedly − in order to make it harder for even very expensive hardware probing to recover the data.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+shred myfiles.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Print the lines of myfile.txt in reverse (from last line to first).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat myfile.txt
+01. Einstein
+02. Newton
+03. Maxwell
+04. Tesla
+05. Edison
+
+tac myfile.txt
+05. Edison
+04. Tesla
+03. Maxwell
+02. Newton
+01. Einstein
+```
+----------------------------------------
+
+
+
 
 
  </br>
