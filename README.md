@@ -2479,6 +2479,535 @@ fc-cache -f –v
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Formats text in a single line.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat 1.txt
+
+Einstein
+Newton
+Albert
+
+fmt 1.txt
+
+Einstein Newton Albert
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Prints the route that a packet takes to reach the Google (172.217.26.206) host from the local machine.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+traceroute google.com
+```
+----------------------------------------
+
+### **Description:**
+> ***View the contents of zipped file.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat 1.txt
+
+Einstein
+Newton
+Albert
+
+gzip 1.txt
+
+zcat 1.txt.gz
+
+Einstein
+Newton
+Albert
+
+
+
+```
+----------------------------------------
+
+### **Description:**
+> ***Compare the contents of two zipped files (1.txt.gz, 2.txt.gz).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+zdiff 1.txt.gz 2.txt.gz
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List all connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss | less
+```
+----------------------------------------
+
+### **Description:**
+> ***Filter out TCP (Transmission Control Protocol) connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -aA tcp
+```
+----------------------------------------
+
+### **Description:**
+> ***Filter out UDP (User Datagram Protocol) connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -aA udp
+```
+----------------------------------------
+
+### **Description:**
+> ***Display only listening sockets.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -lnt
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Print process name and PID.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -ltp
+```
+----------------------------------------
+
+### **Description:**
+> ***Print summary statistics.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -s
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display only IPv6 connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -tl6
+```
+----------------------------------------
+
+### **Description:**
+> ***Display only IPv4 socket connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -tl -f inet
+```
+----------------------------------------
+
+
+
+### **Description:**
+> ***Display all IPv4 TCP sockets that are in connected state.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -t4 state established
+```
+----------------------------------------
+
+### **Description:**
+> ***View the memory map of a process with Process ID (3244).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+pmap 3244
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find command that removes file.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+apropos -r 'remove file'
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display information about the editing programs that are available on a system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+apropos editor
+```
+----------------------------------------
+
+### **Description:**
+> ***Provide information about the pstree command (which displays the names of the processes currently on the system in the form of a tree diagram).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+apropos pstree
+```
+----------------------------------------
+
+### **Description:**
+> ***Print out a list of all environment variables.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+env
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Print HOME variable value.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+printenv HOME
+```
+----------------------------------------
+
+### **Description:**
+> ***Reverse lines of a file (1.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+rev 1.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Lists the files with .txt extension.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -l *.txt
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Print the Default shell of user.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo $SHELL
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the name of the currently running process ($0 is the name of the running process). If you use it inside of a shell 
+> then it will return the name of the shell. If you use it inside of a script, it will return the name of the script.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo $0
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Print all files and folders − similar to ls command.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo *
+```
+----------------------------------------
+
+### **Description:**
+> ***Print the process ID of the current shell ($$ is the process ID of the current shell).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ps -p $$
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List shells.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat /etc/shells
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List last logins of users and what happened such as "shutdown" or "crash" etc.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+last
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Compresses but does not deletes the original file.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+bzip2 -k phy.txt
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Decompresses the compressed file (phy.txt.bz2).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+bzip2 -d phy.txt.bz2
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the contents of compressed file (phy.txt.bz2).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+bzcat phy.txt.bz2
+```
+----------------------------------------
+
+### **Description:**
+> ***Decompresses the compressed file (phy.txt.bz2).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+bunzip2 phy.txt.bz2
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display current logged-in user's crontab entries.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+crontab –l
+```
+----------------------------------------
+
+### **Description:**
+> ***Ping google.com and send the process to the background.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+nohup ping google.com &
+```
+----------------------------------------
+
+### **Description:**
+> ***Save the ping logs to log.txt.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+nohup ping google.com > log.txt &
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display the contents of /home.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -la /home
+```
+----------------------------------------
+
+### **Description:**
+> ***Power-off the machine after 2 minutes.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo shutdown 2
+```
+----------------------------------------
+
+### **Description:**
+> ***Cancel the shutdown process.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+shutdown -c
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display the contents of the file (36.txt) one page after the other.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+pr 36.txt
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display all current terminal settings.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+stty –a
+```
+----------------------------------------
+
+### **Description:**
+> ***List files one per line.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -1
+```
+----------------------------------------
+
+### **Description:**
+> ***Outputs a string (John) repeatedly until killed.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+yes John
+```
+----------------------------------------
+
+### **Description:**
+> ***List files and directories in the current directory (one per line) with details.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+vdir
+```
+----------------------------------------
+
+### **Description:**
+> ***Print when the system was booted.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+who -b
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
