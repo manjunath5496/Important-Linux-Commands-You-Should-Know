@@ -4938,6 +4938,16 @@ uniq myfiles.txt
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Open a file (myfiles.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+xdg-open myfiles.txt
+```
+----------------------------------------
 
 
  </br>
