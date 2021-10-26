@@ -2996,11 +2996,573 @@ who -b
 ----------------------------------------
 
 
+### **Description:**
+> ***Display a list of currently mounted file systems.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+findmnt
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List IP addresses and network interfaces.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ip addr show
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List active (listening) ports.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+netstat -pnltu
+```
+----------------------------------------
+
+### **Description:**
+> ***Display systemd, kernel and journal logs.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+Journalctl
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display the status of network service.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo systemctl status network
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Start the network service.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo systemctl start network
+```
+----------------------------------------
+
+### **Description:**
+> ***Stop the network service.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo systemctl stop network
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the current state of Booleans.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sestatus -b
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Reports whether SELinux is enforcing, permissive or disabled.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+getenforce
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the current status of the SELinux that is running on your system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sestatus
+```
+----------------------------------------
+
+### **Description:**
+> ***Display full listing of processes on your system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ps –aef
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display System Activity Report.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sar
+```
+----------------------------------------
+
+### **Description:**
+> ***Report the resource limit of the current user.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ulimit
+```
+----------------------------------------
+
+### **Description:**
+> ***Report all the resource limits for the current user.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ulimit -a
+```
+----------------------------------------
+
+### **Description:**
+> ***Check the maximum stack size of the current user.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ulimit –s
+```
+----------------------------------------
+
+### **Description:**
+> ***Check out the max scheduling priority of the current user.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ulimit –e
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display the maximum number of user processes.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ulimit –u
+```
+----------------------------------------
+
+### **Description:**
+> ***Check out the size of virtual memory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ulimit –v
+```
+----------------------------------------
+
+### **Description:**
+> ***Check out how many file descriptors a process can have.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ulimit –n
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display the in-depth information on the limits.conf configuration file.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+man limits.conf
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display the sar version.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sar -V
+```
+----------------------------------------
+
+### **Description:**
+> ***Report CPU details total 5 times with the interval of 2 seconds.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sar -u 2 5
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Report about network interface, network speed, IPV4, TCPV4, ICMPV4 network traffic and errors.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sar -n DEV 1 3 | egrep -v lo
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Report details about the process, kernel thread, i-node, and the file tables.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sar -v 1 3
+```
+----------------------------------------
 
 
 
+### **Description:**
+> ***Report statistics about swapping.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sar -S 1 3
+```
+----------------------------------------
 
 
+### **Description:**
+> ***Report statistics about swapping.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sar -S 1 3
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Report details about I/O operations like transaction per second, read per second, write per second.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sar -b 1 3
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the status of the firewalld.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo systemctl status firewalld
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Start the firewalld service.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo systemctl start firewalld
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Start the graphical firewall configuration tool.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+firewall-config
+```
+----------------------------------------
+
+### **Description:**
+> ***List all zones.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+firewall-cmd --list-all-zones
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Check the currently set default zone.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+firewall-cmd --get-default-zone
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display currently allowed service on your system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+firewall-cmd --list-services
+```
+----------------------------------------
+
+### **Description:**
+> ***List the ports that are open on your system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+firewall-cmd --list-ports
+```
+----------------------------------------
+
+### **Description:**
+> ***List services that are allowed for the public zone.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+firewall-cmd --zone=work --list-services
+```
+----------------------------------------
+
+### **Description:**
+> ***Provides information about the route that Internet traffic takes between the local system and a remote host (google.com).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+mtr --report google.com
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Install Samba (CentOS).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo yum install samba
+```
+----------------------------------------
+
+### **Description:**
+> ***Add Samba service to firewalld.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo firewall-cmd --add-service samba –permanent
+```
+----------------------------------------
+
+### **Description:**
+> ***Create a zip file (q.zip).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+zip q.zip q.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Unzip a zip file (q.zip).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+unzip q.zip
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the names of the files with the word (Einstein) present in it.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+zgrep -l "Einstein" *
+```
+----------------------------------------
+
+### **Description:**
+> ***Split q.zip file to create a sequence of zipfiles (q1.zip, q2.zip…..) − each no larger than 1048576 bytes (one megabyte).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+zipsplit -n 1048576 q.zip
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Test the route and connection quality of traffic to the destination host google.com.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+mtr google.com
+```
+----------------------------------------
+
+### **Description:**
+> ***Display IP routing table of a Linux system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+route
+```
+----------------------------------------
+
+
+### **Description:**
+> ***View all your network devices.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+nmcli dev status
+```
+----------------------------------------
+
+
+
+### **Description:**
+> ***Check network connections on your system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+nmcli con show
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List all TCP ports (sockets) that are open on a server.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss –ta
+```
+----------------------------------------
+
+
+
+### **Description:**
+> ***Display all active TCP connections together with their timers.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -to
+```
+----------------------------------------
+
+
+
+### **Description:**
+> ***Check Bash Aliases in Linux.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+type -a alias
+```
+----------------------------------------
 
 
 
