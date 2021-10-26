@@ -3565,6 +3565,304 @@ type -a alias
 ----------------------------------------
 
 
+### **Description:**
+> ***Print yesterday's date and time.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo "Yesterday = $(date -d "Yesterday")"
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Print Tomorrow date and time.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo "tomorrow = $(date -d "tomorrow")"
+```
+----------------------------------------
+
+### **Description:**
+> ***Find what is the date and time before 10 days from now.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo "Before 10 days = $(date -d "tomorrow -10 days")"
+```
+----------------------------------------
+
+### **Description:**
+> ***Find last month and next month.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo "Last month = $(date -d "last month" "%B")"
+echo "Next month = $(date -d "next month" "%B")"
+```
+----------------------------------------
+
+### **Description:**
+> ***Find last year and next year.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo "Last Year = $(date -d "last year" "+%Y")"
+echo "Next Year = $(date -d "next year" "+%Y")"
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Get the number of inodes of files in a directory (root directory).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -lai /
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Get the total number of inodes in the root directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo du --inode /
+```
+----------------------------------------
+
+### **Description:**
+> ***Get the list of all clients connected to HTTP (Port 80) or HTTPS (Port 443).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -o state established '( sport = :http or sport = :https )'
+```
+----------------------------------------
+
+### **Description:**
+> ***List the numerical port numbers.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -tn src :80 or src :443
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Install PuTTy on CentOS.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo yum install putty
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Watch TCP and UDP Open Ports in Real-Time.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo watch netstat -tulpn
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Watch TCP and UDP Open Ports in Real-Time.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo watch ss –tulpn
+```
+----------------------------------------
+
+### **Description:**
+> ***Timeout a ping command after 5 seconds.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+timeout 5s ping google.com
+```
+----------------------------------------
+
+### **Description:**
+> ***Install curl on CentOS.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+yum install curl
+```
+----------------------------------------
+
+### **Description:**
+> ***List all UDP Connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss –ua
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List all Listening UDP Connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss –lu
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display the Process IDs related to socket connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -p
+```
+----------------------------------------
+
+### **Description:**
+> ***Display IPv4 and IPv6 Socket Connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -4
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display IPv6 connections.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -6
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Filter Connections by Port Number.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ss -at '( dport = :22 or sport = :22 )'
+```
+----------------------------------------
+
+### **Description:**
+> ***Show Difference between Two Files (phy.txt and score.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sdiff phy.txt score.txt
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Delete or clear all the entries from bash history.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+history -c
+```
+----------------------------------------
+
+
+### **Description:**
+> ***The ping test will stop after sending 5 packets.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ping -c 5 www.google.com
+```
+----------------------------------------
+
+
+
+```linux
+
+# count number of lines in each .txt file
+ls *.txt | xargs wc -l
+
+# count number of words in each .txt file
+ls *.txt | xargs wc -w
+
+# count number of characters in each .txt file
+ls *.txt | xargs wc -c
+
+# count lines, words and characters in each .txt file
+ls *.txt | xargs wc
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
