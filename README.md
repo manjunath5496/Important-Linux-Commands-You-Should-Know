@@ -5007,7 +5007,16 @@ chmod o-rwx myfiles.txt
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Identifies whether the "cat" command is a shell built-in command, subroutine, alias, or keyword.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+type cat
+```
+----------------------------------------
 
  </br>
  
