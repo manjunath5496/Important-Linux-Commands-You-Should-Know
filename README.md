@@ -2316,8 +2316,7 @@ getent passwd
 
 
 ### **Description:**
-> ***List last 5 users on Linux.
-    List first 5 users on Linux.***
+> ***List last 5 users on Linux.***
 ---------------------------------------
 
 <strong>Command: </strong>
@@ -2325,7 +2324,158 @@ getent passwd
 ```linux
 tail -5 /etc/passwd
 
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List first 5 users on Linux.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
 head -5 /etc/passwd
+```
+----------------------------------------
+
+
+
+### **Description:**
+> ***The message (The system will be shutdown in 10 minutes.) will be broadcasted to all users that are currently logged in.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+wall "The system will be shutdown in 10 minutes."
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List the password and its related details for a user (manju).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+chage -l manju
+```
+----------------------------------------
+
+### **Description:**
+> ***Set Password Expiry Date for an user (manju).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+chage -M 10 manju
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Set the Account Expiry Date for an User (manju).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+chage -E "2020-07-30" manju
+```
+----------------------------------------
+
+### **Description:**
+> ***Force the user (manju) account to be locked after 10 inactivity days.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+chage -I 10 manju
+```
+----------------------------------------
+
+### **Description:**
+> ***Connect to an FTP server at remote server IP address "192.168.42.77".***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ftp 192.168.42.77
+```
+----------------------------------------
+
+### **Description:**
+> ***Lists all the peers connected at various interfaces along with their MAC Addresses and IP addresses.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+arp –a
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the system's DNS domain name.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+dnsdomainname
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display the name of the domain your machine belongs to.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+domainname
+```
+----------------------------------------
+
+### **Description:**
+> ***Encode text (Hello World!) to base64.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo 'Hello World!' | base64
+Output: SGVsbG8gV29ybGQhCg==
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Decode (SGVsbG8gV29ybGQhCg==) to text (Hello World!).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo 'SGVsbG8gV29ybGQhCg==' | base64 -d
+Output: Hello World!
+```
+----------------------------------------
+
+### **Description:**
+> ***Build font information cache files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+fc-cache -f –v
 ```
 ----------------------------------------
 
