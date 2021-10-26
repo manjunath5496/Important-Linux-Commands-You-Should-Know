@@ -4927,6 +4927,17 @@ find . -type f \( -name "*.sh" -o -name "*.txt" -o -name "*.c" \)
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Delete repeated lines in the file (myfiles.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uniq myfiles.txt
+```
+----------------------------------------
+
 
 
  </br>
