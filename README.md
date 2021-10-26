@@ -4973,7 +4973,39 @@ echo ~
 ----------------------------------------
 
 
+### **Description:**
+> ***List all the files with the file permissions, the number of links to that file, the owner of the file, the group of the file, the file size in bytes, the file's last modified datetime and the file name.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+ls -al
+```
+----------------------------------------
+
+### **Description:**
+> ***Execute command "ls -al" and print the result to the standard output.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo $(ls -al)
+```
+----------------------------------------
+
+```linux
+# Everyone can now read the file
+chmod a+r myfiles.txt 
+
+# Everyone can now read and write the file
+chmod a+rw myfiles.txt 
+
+# Others (not the owner, not in the same group of the file) cannot read, write or execute the file
+chmod o-rwx myfiles.txt 
+```
+----------------------------------------
 
 
 
