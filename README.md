@@ -4949,6 +4949,33 @@ xdg-open myfiles.txt
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Display the files in the current folder that start with the letter "m".***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo m*
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Print your home folder path.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo ~
+```
+----------------------------------------
+
+
+
+
+
 
  </br>
  
