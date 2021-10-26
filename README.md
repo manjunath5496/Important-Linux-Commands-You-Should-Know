@@ -3850,9 +3850,611 @@ ls *.txt | xargs wc
 
 
 ```
+----------------------------------------
+
+### **Description:**
+> ***Displays user accounts.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lslogins –u
+```
+----------------------------------------
+
+### **Description:**
+> ***List all loaded services on your system (whether active; running, exited or failed).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+systemctl list-units --type=service
+```
+----------------------------------------
+
+### **Description:**
+> ***List all loaded services on your system (whether active; running, exited or failed).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+systemctl --type=service
+```
+----------------------------------------
 
 
+### **Description:**
+> ***List all loaded but active services.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+systemctl list-units --type=service --state=active
+```
+----------------------------------------
+
+### **Description:**
+> ***List all loaded but active services.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+systemctl --type=service --state=active
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List all running services (i.e., all loaded and actively running services).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+systemctl list-units --type=service --state=running
+```
+----------------------------------------
+
+### **Description:**
+> ***List all running services (i.e., all loaded and actively running services).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+systemctl --type=service --state=running
+```
+----------------------------------------
+
+
+```linux
+
+#scan a single port
+nc -v -w 2 z 192.168.56.1 22
+
+# scan multiple ports
+nc -v -w 2 z 192.168.56.1 22 80
+
+# scan range of ports
+nc -v -w 2 z 192.168.56.1 20-25
+
+
+```
+----------------------------------------
+
+### **Description:**
+> ***Find out your DNS Server IP address.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat /etc/resolv.conf
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find out your DNS Server IP address.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+less /etc/resolv.conf
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Monitor mount, unmount, remount and move actions on a directory (i.e., on /mnt/test).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+findmnt --poll --mountpoint /mnt/test
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Check Linux Server Uptime.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uptime -p
+```
+----------------------------------------
+
+### **Description:**
+> ***Check Linux Server Starting Time.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uptime –s
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display uptime's version information.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uptime –h
+```
+----------------------------------------
+
+### **Description:**
+> ***Count the number of times "Justin" appears in the file (score.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+grep -o -i Justin score.txt | wc –l
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Delete all crontab jobs.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+crontab -r
+```
+----------------------------------------
+
+```linux
+
+ADD=$(( 1 + 2 ))
+echo $ADD
+
+3
+
+MUL=$(( $ADD * 5 ))
+echo $MUL
+
+15
+
+SUB=$(( $MUL - 5 ))
+echo $SUB
+
+10
+
+DIV=$(( $SUB / 2 ))
+echo $DIV
+
+5
+
+MOD=$(( $DIV % 2 ))
+echo $MOD
+
+1
+
+```
+----------------------------------------
+
+### **Description:**
+> ***Find the length of a string (This is myw3schools.com).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+expr length "This is myw3schools.com"
+```
+----------------------------------------
+
+
+```linux
+
+echo '3+5' | bc
+
+8
+
+awk 'BEGIN { a = 6; b = 2; print "(a + b) = ", (a + b) }'
+
+
+(a + b) = 8
+
+
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Decompose an integer (10) into prime factors.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+factor 10
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display every active process on a Linux system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ps -e
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display User Running Processes.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ps -x
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display a user's processes by user name (manju).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ps -fU manju
+```
+----------------------------------------
+
+### **Description:**
+> ***Display a user's processes by real user ID (RUID).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ps -fu 1000
+```
+----------------------------------------
+
+### **Description:**
+> ***Display every process running with root user privileges (real and effective ID).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ps -U root -u root
+```
+----------------------------------------
+
+### **Description:**
+> ***Install Nix Package Manager in Linux.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sh <(curl https://nixos.org/nix/install) --daemon
+```
+----------------------------------------
+
+### **Description:**
+> ***View System Locale in Linux.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+locale
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display a list of all available locales.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+locale –a
+```
+----------------------------------------
+
+```linux
+
+cat score.txt
+Justin-40
+
+cat score.txt | tr [:lower:] [:upper:]
+JUSTIN-40
+
+cat score.txt | tr [a-z] [A-Z] >output.txt
+
+cat output.txt
+JUSTIN-40
+
+
+```
+----------------------------------------
+
+
+```linux
+
+cat domainnames.txt
+
+www. google. com
+www. fb. com
+www. mactech. com
+
+
+# Remove the spaces in the domain names
+
+cat domainnames.txt | tr -d ''
+
+www.google.com
+www.fb.com
+www.mactech.com
+
+
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Re-execute previously used command.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+!sud
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Re-execute previously used command.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+!sudo
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Generate a compact list of all Linux user accounts on the system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cut -d: -f1 < /etc/passwd | sort | xargs
+```
+----------------------------------------
+
+### **Description:**
+> ***View multiple compressed files (phy.txt.gz and myfiles.txt.gz).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+zcat phy.txt.gz myfiles.txt.gz
+```
+----------------------------------------
+
+### **Description:**
+> ***Find all php files in a directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -type f -name "*.php"
+```
+----------------------------------------
+
+### **Description:**
+> ***Find all the files whose permissions are 777.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -type f -perm 0777 -print
+```
+----------------------------------------
+
+### **Description:**
+> ***Find all the files without permission 777.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -type f ! -perm 777
+```
+----------------------------------------
+
+### **Description:**
+> ***Find all SGID set files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -perm /g=s
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find all Read-Only files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -perm /u=r
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find all Executable files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -perm /a=x
+```
+----------------------------------------
+
+### **Description:**
+> ***Find and remove phy.txt File.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -type f -name "phy.txt" -exec rm -f {} \;
+```
+----------------------------------------
+
+### **Description:**
+> ***To find and remove multiple .txt files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -type f -name "*.txt" -exec rm -f {} \;
+```
+----------------------------------------
+
+### **Description:**
+> ***To find and remove multiple .mp3 files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -type f -name "*.mp3" -exec rm -f {} \;
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find all Empty Directories.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find /tmp -type d -empty
+```
+----------------------------------------
+
+### **Description:**
+> ***File all Hidden Files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find /tmp -type f -name ".*"
+```
+----------------------------------------
+
+### **Description:**
+> ***Find Last 50 Days Modified Files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -mtime 50
+```
+----------------------------------------
+
+### **Description:**
+> ***Find Last 50 Days Accessed Files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -atime 50
+```
+----------------------------------------
+
+### **Description:**
+> ***Find Changed Files in Last 1 Hour.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -cmin -60
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find Modified Files in Last 1 Hour.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -mmin -60
+```
+----------------------------------------
 
 
 
