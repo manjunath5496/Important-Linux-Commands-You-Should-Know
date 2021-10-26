@@ -1,6 +1,11 @@
 <p>The&nbsp;<a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank" rel="nofollow noopener"><strong>command-line interface</strong></a><strong>&nbsp;</strong>is one of the nearly all well built trademarks of&nbsp;<a href="https://en.wikipedia.org/wiki/Linux" target="_blank" rel="nofollow noopener"><strong>Linux</strong></a>. There exists an&nbsp;ocean of&nbsp;<strong>Linux commands</strong>, permitting you to do nearly everything you can be under the impression of doing on your&nbsp;Linux&nbsp;<a href="https://en.wikipedia.org/wiki/Operating_system" target="_blank" rel="nofollow noopener">operating system</a>. Although, this to the end of time creates a problem: by all of so&nbsp;copious commands&nbsp;accessible to manage, you don't comprehend where and at which point to fly learning them, especially when you are learner. If you are facing this problem, and are peering for a painless method to begin your command line journey in Linux, you've come to the right place, as in this, we will launch you to a hold of well liked and&nbsp;<strong>helpful Linux commands</strong>.&nbsp;</p>
 <hr>
 
+<img src="1l.jpg" alt="Linux" width="669" height="371">
+
+<hr>
+
+
 
 ### **Description:**
 > ***Display system date and time.***
