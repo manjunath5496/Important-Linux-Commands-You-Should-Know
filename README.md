@@ -2256,6 +2256,83 @@ halt -p
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Prints the details of the last login (login-name, port and last login time).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lastlog
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Displays the login information (1 day ago).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lastlog -t 1
+```
+----------------------------------------
+
+### **Description:**
+> ***Display lastlog information for a particular user (manju).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lastlog -u manju
+```
+----------------------------------------
+
+### **Description:**
+> ***List all users on Linux.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat /etc/passwd
+```
+
+```linux
+more /etc/passwd
+```
+
+```linux
+less /etc/passwd
+```
+
+```linux
+getent passwd
+```
+
+----------------------------------------
+
+
+### **Description:**
+> ***List last 5 users on Linux.
+    List first 5 users on Linux.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+tail -5 /etc/passwd
+
+head -5 /etc/passwd
+```
+----------------------------------------
+
+
+
+
+
  </br>
  
  <h2>  Papers  </h2>
