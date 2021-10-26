@@ -4456,21 +4456,471 @@ find / -mmin -60
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Find Accessed Files in Last 1 Hour.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -amin -60
+```
+----------------------------------------
+
+### **Description:**
+> ***Find all 50 MB files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -size 50M
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find and Delete 100 MB Files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -type f -size +100M -exec rm -f {} \;
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find all .mp3 files with more than 10 MB and delete them.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -type f -name *.mp3 -size +10M -exec rm {} \;
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find Linux Open File Limit.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat /proc/sys/fs/file-max
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Check Hard Limit in Linux.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ulimit -Hn
+```
+----------------------------------------
+
+### **Description:**
+> ***Check Soft Limits in Linux.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ulimit -Sn
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the current time and date on your system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+timedatectl status
+```
+----------------------------------------
+
+### **Description:**
+> ***View all available timezones.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+timedatectl list-timezones
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find the local timezone according to your location.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+timedatectl list-timezones | egrep -o "Asia/B.*"
+
+timedatectl list-timezones | egrep -o "Europe/L.*"
+
+timedatectl list-timezones | egrep -o "America/N.*"
+```
+----------------------------------------
+
+### **Description:**
+> ***Set your local timezone in Linux.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+timedatectl set-timezone "Asia/Kolkata"
+```
+----------------------------------------
+
+### **Description:**
+> ***View a summary of swap space usage by device.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+swapon --summary
+```
+----------------------------------------
+
+### **Description:**
+> ***Check swap usage information.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat /proc/swaps
+```
+----------------------------------------
+
+
+```linux
+
+# start recording of Linux terminal
+
+script history_log.txt
+
+
+Script started, file is history_log.txt
+
+exit
+
+Script done, file is history_log.txt
+
+```
+----------------------------------------
+
+### **Description:**
+> ***List files and their allocated sizes in blocks.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+dir -shl
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display information about CD-ROM.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+less /proc/sys/dev/cdrom/info
+```
+----------------------------------------
+
+```linux
+
+while true; do date >> date.txt ; sleep 5 ; done &
+
+cat date.txt
+
+Mon Aug 16 03:05:36 PDT 2021
+Mon Aug 16 03:05:41 PDT 2021
+Mon Aug 16 03:05:46 PDT 2021
+Mon Aug 16 03:05:51 PDT 2021
+
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Print all .jpeg files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo *.jpeg
+```
+----------------------------------------
+
+```linux
+
+a=$(pwd)
+echo "Current working directory is : $a"
+
+/home/manju
+
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Break down a word (linux) into individual letters.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo 'linux' | fold -w1
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Break down a word (linux) into individual letters.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo 'linux' | fold -w1
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Output the files with respect of the user (root) owned files in the current directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -user root
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Trace a command (pwd) execution.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+strace pwd
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display specific User (manju) process details.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+top -u manju
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find Out Linux Kernel Version.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uname –or
+```
+----------------------------------------
+
+### **Description:**
+> ***Print linux system information.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+uname -a
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display some of your system information including the Linux kernel version.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat /proc/version
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find Out Linux Distribution Name and Release Version.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat /etc/centos-release
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find Out Linux Distribution Name and Release Version.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+fuser .
+```
+----------------------------------------
+
+### **Description:**
+> ***Determine which processes are accessing your ~.bashrc file.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+fuser -v -m .bashrc
+```
+----------------------------------------
 
 
 
+### **Description:**
+> ***Displays all the possible signals that can be used with the fuser tool.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo fuser --list-signals
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Sends the HUP signal to all processes that have your /boot directory open.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo fuser -k -HUP /boot
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Shutdown the system at 23:55 today.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo "shutdown -h now" | at -m 23:55
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Run updatedb at 23:55 today.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+echo "updatedb" | at -m 23.55
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display the top 15 processes sorted by memory use in descending order.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+top -b -o +%MEM | head -n 22
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Redirect the output to a file (report.txt) for later inspection.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+top -b -o +%MEM | head -n 22 > report.txt
+```
+----------------------------------------
 
 
 
+### **Description:**
+> ***Check Top Processes sorted by RAM or CPU Usage in Linux.***
+---------------------------------------
 
+<strong>Command: </strong>
 
+```linux
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head
+```
+----------------------------------------
 
+### **Description:**
+> ***Find all files in the current directory with .sh and .txt file extensions.***
+---------------------------------------
 
+<strong>Command: </strong>
 
+```linux
+find . -type f \( -name "*.sh" -o -name "*.txt" \)
+```
+----------------------------------------
 
+### **Description:**
+> ***Find all files in the current directory with .sh, .c and .txt file extensions.***
+---------------------------------------
 
+<strong>Command: </strong>
 
-
+```linux
+find . -type f \( -name "*.sh" -o -name "*.txt" -o -name "*.c" \)
+```
+----------------------------------------
 
 
 
