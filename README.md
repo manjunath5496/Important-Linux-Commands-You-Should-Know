@@ -5165,6 +5165,129 @@ ls -n
 ```
 ----------------------------------------
 
+
+### **Description:**
+> ***Find all 30 MB files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -size 30M
+```
+----------------------------------------
+
+### **Description:**
+> ***Find files with sizes between 100 - 200MB.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -size +100M -size -200M
+```
+----------------------------------------
+
+### **Description:**
+> ***List directories larger than 20 KB.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -type d -size +20k
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find empty files and directories.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find ./ -type f -size 0
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List files modified within the last 17 hours.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -mtime -17 -type f 
+```
+----------------------------------------
+
+
+### **Description:**
+> *** List directories modified within the last 10 days.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -mtime -10 -type d 
+```
+----------------------------------------
+
+### **Description:**
+> ***List all files modified between 6 and 15 days ago in the home directory.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find /home -type f -mtime +6 -mtime -15
+```
+----------------------------------------
+
+### **Description:**
+> ***Display files with permission 777.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find -perm 777
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List files owned by a user (manju).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find /home -user manju
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  </br>
  
  <h2>  Papers  </h2>
