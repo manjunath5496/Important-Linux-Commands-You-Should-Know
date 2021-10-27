@@ -5052,7 +5052,7 @@ find . -type f -size +100c
 ----------------------------------------
 
 ### **Description:**
-> ***Find files bigger than 100KB but smaller than 1MB.***
+> ***Find files bigger than 100 KB but smaller than 1 MB.***
 ---------------------------------------
 
 <strong>Command: </strong>
@@ -5062,7 +5062,16 @@ find . -type f -size +100k -size -1M
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Deletes all the files edited in the last 24 hours.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+find . -type f -mtime -1 -delete
+```
+----------------------------------------
 
 
 
