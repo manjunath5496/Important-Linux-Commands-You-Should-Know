@@ -5328,6 +5328,51 @@ ps -u manju
 ----------------------------------------
 
 
+### **Description:**
+> ***Execute a previous command starting with a specific letter "c".***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+!c
+```
+----------------------------------------
+
+### **Description:**
+> ***Display BIOS information (You need elevated permissions to run this).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+dmidecode -t 0
+```
+----------------------------------------
+
+### **Description:**
+> ***Display CPU information (You need elevated permissions to run this).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+dmidecode -t 4
+```
+----------------------------------------
+
+
+### **Description:**
+> ***View all the system logs.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+gnome-system-log
+```
+----------------------------------------
+
 
 
 
