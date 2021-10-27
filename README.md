@@ -5074,6 +5074,96 @@ find . -type f -mtime -1 -delete
 ----------------------------------------
 
 
+### **Description:**
+> ***List all files including hidden files.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -a
+```
+----------------------------------------
+
+### **Description:**
+> ***List Files and Directories with "/" Character at the End.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -F
+```
+----------------------------------------
+
+### **Description:**
+> ***List Files in Reverse Order.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -r
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Sort Files by File Size.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -lS
+```
+----------------------------------------
+
+
+### **Description:**
+> ***List Files with an inode number.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -i
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Check the version of the ls command.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls --version
+```
+----------------------------------------
+
+### **Description:**
+> ***List files under directory /tmp.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -l /tmp
+```
+----------------------------------------
+
+### **Description:**
+> ***Display UID and GID of files and directories.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -n
+```
+----------------------------------------
 
  </br>
  
