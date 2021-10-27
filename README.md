@@ -5376,6 +5376,110 @@ gnome-system-log
 
 
 
+### **Description:**
+> ***Identify SSH Client Version.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ssh -V
+```
+----------------------------------------
+
+### **Description:**
+> ***Display total connect time of users.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ac –d
+```
+----------------------------------------
+
+### **Description:**
+> ***Display connect time for all the users.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ac -p
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Diaplay connect time report for a specific user "manju".***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ac -d manju
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display the modules compiled inside Apache.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+httpd -l 
+```
+----------------------------------------
+
+
+### **Description:**
+> *** View Processes Owned by Current User.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ps U $USER
+```
+----------------------------------------
+
+### **Description:**
+> ***Display the information about the filesystem Type.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+df -Tha
+```
+----------------------------------------
+
+### **Description:**
+> ***Display Active Connections with Process ID and Program Name.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+netstat -tap
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Display RAW network statistics.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+netstat --statistics --raw
+```
+----------------------------------------
+
+
 
 
 
