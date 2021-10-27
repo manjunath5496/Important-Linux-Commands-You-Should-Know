@@ -5294,6 +5294,27 @@ find -name "*.conf" | ls -l
 ```
 ----------------------------------------
 
+### **Description:**
+> ***List directories only.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -d */
+```
+----------------------------------------
+
+### **Description:**
+> ***List multiple files on a single line.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls --format=comma
+```
+----------------------------------------
 
 
 
