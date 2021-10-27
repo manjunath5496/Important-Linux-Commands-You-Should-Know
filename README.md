@@ -5316,7 +5316,16 @@ ls --format=comma
 ```
 ----------------------------------------
 
+### **Description:**
+> ***View the process of a specific user "manju".***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+ps -u manju
+```
+----------------------------------------
 
 
 
