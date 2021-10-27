@@ -5018,6 +5018,32 @@ type cat
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Find files edited more than 3 days ago.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -type f -mtime +3
+```
+----------------------------------------
+
+### **Description:**
+> ***Find files edited in the last 24 hours.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -type f -mtime -1
+```
+----------------------------------------
+
+
+
+
+
  </br>
  
  <h2>  Papers  </h2>
