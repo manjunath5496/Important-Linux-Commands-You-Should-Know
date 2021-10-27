@@ -5040,6 +5040,28 @@ find . -type f -mtime -1
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Find files that have more than 100 characters (bytes) in them.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -type f -size +100c
+```
+----------------------------------------
+
+### **Description:**
+> ***Find files bigger than 100KB but smaller than 1MB.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find . -type f -size +100k -size -1M
+```
+----------------------------------------
+
 
 
 
