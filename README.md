@@ -5272,6 +5272,27 @@ find /home -user manju
 
 
 
+### **Description:**
+> ***Find all text files owned by user "manju".***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find /home -user manju -iname "*.txt"
+```
+----------------------------------------
+
+### **Description:**
+> ***Find and list files and directories together with their permissions.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find -name "*.conf" | ls -l
+```
+----------------------------------------
 
 
 
