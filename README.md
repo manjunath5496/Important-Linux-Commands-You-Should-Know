@@ -5708,9 +5708,71 @@ cat softF1
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Display information about the process with process ID – 13.***
+---------------------------------------
 
+<strong>Command: </strong>
 
+```linux
+ps -p 13
+```
+----------------------------------------
 
+### **Description:**
+> ***Set the file size limit to 51,200 bytes.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ulimit -f 100
+```
+----------------------------------------
+
+### **Description:**
+> ***Find out what kernel modules are currently loaded.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+lsmod
+```
+----------------------------------------
+
+### **Description:**
+> ***Install php version 7.2.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+sudo yum install php
+```
+----------------------------------------
+
+### **Description:**
+> ***Run a PHP statement from the command line without creating a file.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+php -r 'echo "Hello World\r\n";'
+```
+----------------------------------------
+
+### **Description:**
+> ***Start a PHP interactive shell.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+php -a
+```
+----------------------------------------
 
 
  </br>
