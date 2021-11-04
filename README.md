@@ -5491,9 +5491,105 @@ ls -al *.txt
 ```
 ----------------------------------------
 
+### **Description:**
+> ***View system defined cron jobs.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat /etc/crontab
+```
+----------------------------------------
+
+### **Description:**
+> ***Check which ports are in listening in Linux Server.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+netstat --listen
+```
+----------------------------------------
+
+### **Description:**
+> ***Check Inodes on File system.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+df -i /dev/sda1
+```
+----------------------------------------
+
+### **Description:**
+> ***Find Inode number of File (myfiles.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -il myfiles.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Check ACL (Access control list) configured on a file (myfiles.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+getfacl myfiles.txt
+```
+----------------------------------------
+
+### **Description:**
+> ***Check information of disk usage of files and directories on a machine.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+du -sh /var/log/*
+```
+----------------------------------------
+
+### **Description:**
+> ***Display dependencies of the "cp" command.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ldd /bin/cp
+```
+----------------------------------------
+
+### **Description:**
+> ***Display dependencies of the "cp" command with details.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ldd -v /bin/cp
+```
+----------------------------------------
 
 
+### **Description:**
+> ***Display unused direct dependencies of the "cp" command.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+ldd -u /bin/cp
+```
+----------------------------------------
 
 
 
