@@ -5591,7 +5591,65 @@ ldd -u /bin/cp
 ```
 ----------------------------------------
 
+### **Description:**
+> ***Check all installed packages of ftp.***
+---------------------------------------
 
+<strong>Command: </strong>
+
+```linux
+rpm –qa | grep ftp
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find files in the /home directory which were modified more than 120 days ago.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find /home -mtime +120
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Find files in the /var directory that have not been accessed in the last 90 days.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find /var -atime -90
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Search for core files in the entire directory tree and delete them as found without prompting for confirmation.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+find / -name core -exec rm {} \;
+```
+----------------------------------------
+
+
+
+### **Description:**
+> ***Check current run level of a Linux server.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+who –r
+```
+----------------------------------------
 
 
  </br>
