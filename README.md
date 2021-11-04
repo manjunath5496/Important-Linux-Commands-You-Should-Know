@@ -5652,6 +5652,67 @@ who –r
 ----------------------------------------
 
 
+### **Description:**
+> ***Display the content of file (myfiles.txt).***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+awk '{print}' myfiles.txt
+```
+----------------------------------------
+
+
+### **Description:**
+> ***Create hard-link to myfiles.txt.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ln myfiles.txt hardF1
+```
+----------------------------------------
+
+### **Description:**
+> ***Check content of the hard link - hardF1.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat hardF1
+```
+----------------------------------------
+
+### **Description:**
+> ***Create Soft-link to myfiles.txt.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ln myfiles.txt softF1
+```
+----------------------------------------
+
+### **Description:**
+> ***Check content of the soft link - softF1.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+cat softF1
+```
+----------------------------------------
+
+
+
+
+
+
  </br>
  
  <h2>  Papers  </h2>
