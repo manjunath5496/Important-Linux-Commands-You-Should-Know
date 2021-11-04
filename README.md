@@ -5480,6 +5480,16 @@ netstat --statistics --raw
 ----------------------------------------
 
 
+### **Description:**
+> ***Display all .txt files including its individual permission.***
+---------------------------------------
+
+<strong>Command: </strong>
+
+```linux
+ls -al *.txt
+```
+----------------------------------------
 
 
 
